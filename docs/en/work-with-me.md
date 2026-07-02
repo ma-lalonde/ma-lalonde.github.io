@@ -1,15 +1,15 @@
 # Work with me
 
-I'm a systems integrator who builds, integrates, and automates hardware-software systems rigorously across disciplines. My background is deliberately broad — electronics, firmware, software, mechatronics, infrastructure, operations — and I'm available for short-term contract work, typically **1 to 6 months**, with teams that need a generalist who can own the end-to-end.
+I build, integrate, and automate software systems, and the electronics and instrumentation around them when a project needs it. My focus is software, self-hosted infrastructure, and automation, with a deliberately broad background behind it (firmware, electronics, mechatronics, operations), and I'm available for short-term contract work, typically **1 to 6 months**, with teams that need a generalist who can own the end-to-end.
 
 ## What I do
 
-- **Hardware-software integration** — stitching together custom PCBs, firmware, controllers, APIs, and dashboards so a whole system behaves as one.
-- **Industrial automation** — closed-loop process control, instrumentation, and data collection for small-batch manufacturing and lab environments.
-- **Software automation & integrations** — connecting previously offline or disconnected services, automating menial tasks, orders, inventory, invoicing, reporting, and notifications. If it's repetitive and digital, it can usually be automated.
-- **Embedded electronics** — schematics, PCB layout, pick-and-place assembly, bring-up, and debugging.
-- **R&D prototyping** — fast iteration on novel electronics and mechatronics, from concept through functional prototype.
-- **Self-hosted infrastructure** — reverse proxies, Docker-based service orchestration, home/shop automation platforms (Home Assistant, ERPNext, Cal.com, n8n, and similar). Everything needed to go from monthly per-employee fees to a fixed-fee structure.
+- **Software automation and integrations** - connecting previously offline or disconnected services, automating menial tasks, orders, inventory, invoicing, reporting, and notifications. If it's repetitive and digital, it can usually be automated.
+- **Self-hosted infrastructure** - reverse proxies, Docker-based service orchestration, shop and home automation platforms (Home Assistant, ERPNext, n8n, and similar). Everything needed to go from monthly per-employee fees to a fixed-fee structure.
+- **Hardware-software integration** - stitching together custom PCBs, firmware, controllers, APIs, and dashboards so a whole system behaves as one.
+- **Instrumentation and automation** - closed-loop process control, instrumentation, and data collection for small-batch manufacturing and lab environments.
+- **Embedded electronics** - schematics, PCB layout, pick-and-place assembly, bring-up, and debugging.
+- **R&D prototyping** - fast iteration on novel electronics and mechatronics, from concept through functional prototype.
 
 ## How I work
 
@@ -52,7 +52,7 @@ A few of the organizations I've delivered work for, mostly during my Connaxio ye
 
 - [Human Garage](https://www.humangarage.net/) — CRM ↔ social network and programs synchronisation
 - [Fermes Valhalla](https://fermesvalhallafarms.com/) — greenhouse automation and farm-wide network management
-- Révolutionnez.ca — DevOps and back-end support
+- Révolutionnez.ca — infrastructure and back-end support
 - Lions Bay Mushroom Farm — automated CO₂ and humidity management with remote control
 
 ## How we'd get started

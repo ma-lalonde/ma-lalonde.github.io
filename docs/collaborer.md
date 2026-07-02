@@ -1,15 +1,15 @@
 # Collaborer
 
-Je suis un intégrateur de systèmes qui conçoit, intègre et automatise des systèmes logiciels et matériels à travers plusieurs disciplines avec rigueur. Mon parcours est volontairement large — électronique, microprogrammes, logiciels, mécatronique, infrastructure, opérations — et je suis disponible pour des mandats de courte durée, typiquement de **1 à 6 mois**, avec des équipes qui ont besoin d'un généraliste capable de prendre un dossier en charge de bout en bout.
+Je conçois, j'intègre et j'automatise des systèmes logiciels, ainsi que l'électronique et l'instrumentation autour d'eux quand un projet le demande. Je me concentre sur le logiciel, l'infrastructure auto-hébergée et l'automatisation, avec un parcours volontairement large derrière (microprogrammes, électronique, mécatronique, opérations), et je suis disponible pour des mandats de courte durée, typiquement de **1 à 6 mois**, avec des équipes qui ont besoin d'un généraliste capable de prendre un dossier en charge de bout en bout.
 
 ## Ce que je fais
 
-- **Intégration logicielle-matérielle** — assembler circuits imprimés, microprogrammes, contrôleurs, APIs et tableaux de bord pour que tout le système se comporte comme un seul produit.
-- **Automatisation industrielle** — contrôle de procédés en boucle fermée, instrumentation et collecte de données pour la fabrication à petite échelle et les environnements de laboratoire.
-- **Automatisation logicielle et intégrations** — connecter des services auparavant hors ligne ou déconnectés, automatiser les tâches répétitives : commandes, inventaire, facturation, rapports, notifications. Si c'est répétitif et numérique, on peut généralement l'automatiser.
-- **Électronique embarquée** — schémas électriques, routage de PCB, assemblage par pick-and-place, mise en service et dépannage.
-- **Prototypage R&D** — itérations rapides sur de l'électronique et de la mécatronique novatrice, du concept au prototype fonctionnel.
-- **Infrastructure auto-hébergée** — serveurs mandataires (reverse proxies), orchestration de services par Docker, plateformes d'automatisation pour la maison ou l'atelier (Home Assistant, ERPNext, Cal.com, n8n, et semblables). De quoi passer d'une facture mensuelle par employé à une structure à coût fixe.
+- **Automatisation logicielle et intégrations** - connecter des services auparavant hors ligne ou déconnectés, automatiser les tâches répétitives : commandes, inventaire, facturation, rapports, notifications. Si c'est répétitif et numérique, on peut généralement l'automatiser.
+- **Infrastructure auto-hébergée** - serveurs mandataires (reverse proxies), orchestration de services par Docker, plateformes d'automatisation pour la maison ou l'atelier (Home Assistant, ERPNext, n8n, et semblables). De quoi passer d'une facture mensuelle par employé à une structure à coût fixe.
+- **Intégration logicielle-matérielle** - assembler circuits imprimés, microprogrammes, contrôleurs, APIs et tableaux de bord pour que tout le système se comporte comme un seul produit.
+- **Instrumentation et automatisation** - contrôle de procédés en boucle fermée, instrumentation et collecte de données pour la fabrication à petite échelle et les environnements de laboratoire.
+- **Électronique embarquée** - schémas électriques, routage de PCB, assemblage par pick-and-place, mise en service et dépannage.
+- **Prototypage R&D** - itérations rapides sur de l'électronique et de la mécatronique novatrice, du concept au prototype fonctionnel.
 
 ## Ma méthode
 
@@ -52,7 +52,7 @@ Quelques organisations pour qui j'ai livré du travail, principalement pendant m
 
 - [Human Garage](https://www.humangarage.net/) : synchronisation CRM ↔ réseau social et programmes
 - [Fermes Valhalla](https://fermesvalhallafarms.com/) : automatisation de serre et gestion du réseau à l'échelle de la ferme
-- Révolutionnez.ca : DevOps et soutien back-end
+- Révolutionnez.ca : infrastructure et soutien back-end
 - Ferme de champignons à Lions Bay : gestion automatisée du CO₂ et de l'humidité, et contrôle à distance
 
 ## Pour démarrer

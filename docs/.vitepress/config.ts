@@ -5,9 +5,9 @@ const SITE_URL = 'https://ma-lalonde.dev'
 const OG_IMAGE = `${SITE_URL}/images/profile.png`
 
 const FR_DESCRIPTION =
-  "Intégrateur de systèmes disponible pour mandats de 1 à 6 mois — automatisation, électronique embarquée et intégration logicielle-matérielle."
+  "Contractuel en intégration de systèmes et automatisation, disponible pour mandats de 1 à 6 mois : logiciel, infrastructure auto-hébergée, intégrations de services et automatisation des processus."
 const EN_DESCRIPTION =
-  'Systems integrator available for 1 to 6 month contracts — automation, embedded electronics, and hardware-software integration.'
+  'Systems integration and automation contractor available for 1 to 6 month engagements: software, self-hosted infrastructure, service integrations, and process automation.'
 
 export default defineConfig({
   title: 'Marc-Antoine Lalonde',
@@ -35,11 +35,11 @@ export default defineConfig({
             {
               text: 'Projets',
               items: [
+                { text: 'Auto-hébergement', link: '/projets/self-hosting' },
                 { text: 'Chocolat Infini', link: '/projets/chocolate' },
                 { text: 'Connaxio', link: '/projets/connaxio' },
                 { text: 'Magnétomètre quantique', link: '/projets/quantum-magnetometer' },
-                { text: 'VAMUdeS', link: '/projets/drones' },
-                { text: 'Auto-hébergement', link: '/projets/self-hosting' }
+                { text: 'VAMUdeS', link: '/projets/drones' }
               ]
             }
           ]
@@ -76,11 +76,11 @@ export default defineConfig({
             {
               text: 'Projects',
               items: [
+                { text: 'Self Hosting', link: '/en/projects/self-hosting' },
                 { text: 'Chocolat Infini', link: '/en/projects/chocolate' },
                 { text: 'Connaxio', link: '/en/projects/connaxio' },
                 { text: 'Quantum Magnetometer', link: '/en/projects/quantum-magnetometer' },
-                { text: 'VAMUdeS', link: '/en/projects/drones' },
-                { text: 'Self Hosting', link: '/en/projects/self-hosting' }
+                { text: 'VAMUdeS', link: '/en/projects/drones' }
               ]
             }
           ]
