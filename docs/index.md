@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Marc-Antoine Lalonde, B. Ing."
   text: "Intégration de systèmes et automatisation"
-  tagline: "Contractuel multidisciplinaire en logiciel, électronique, instrumentation et automatisation. Disponible pour mandats de 1 à 6 mois."
+  tagline: "Consultant multidisciplinaire en logiciel, électronique, instrumentation et automatisation. Disponible pour mandats de 1 à 6 mois."
   image:
     src: /images/profile.png
     alt: Marc-Antoine Lalonde
