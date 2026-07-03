@@ -1,0 +1,6 @@
+# scanctl config -- github.com/catenahq/scanctl
+# semgrep stays blocking so a finding fails the security gate (--error).
+tools:
+  semgrep:
+    enabled: true
+    mode: block
