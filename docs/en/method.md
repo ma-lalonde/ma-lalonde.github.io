@@ -6,7 +6,7 @@ Writing code stopped being the expensive part of this work. What is left is choo
 
 **It has to do the job today.**
 
-Roadmaps are marketing. If a tool is missing the one thing your process depends on and support says it is coming next quarter, the tool is missing it. I have replaced a popular scheduling application that kept changing direction with a smaller one that did the whole job on day one and had not changed its data format in years. The smaller one is still running.
+Roadmaps are marketing. If a tool is missing the one thing your process depends on and support says it is coming next quarter, the tool is missing it. I have replaced a popular scheduling application that kept changing direction with a smaller one that did the whole work on day one and had not changed its data format in years. The smaller one is still running.
 
 **Robust, maintained, and used by people other than me.**
 
@@ -14,7 +14,7 @@ Before a tool goes into a client's business it has usually been running in mine.
 
 **The simplest thing that does the job.**
 
-The standard way to run many applications on one server is built for companies running thousands of them. For a business running fifteen, it adds a full-time job nobody has. There is a simpler layer underneath that does the same thing at your size, and one person can still hold all of it in their head at three in the morning.
+The standard way to run many applications on one server is built for companies running thousands of them. For a business running fifteen, it adds a full-time job nobody has. There are simpler tools that do the same thing at your scale, and that are easy to understand and maintain for a simgle person.
 
 **Nothing that locks you in.**
 
