@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "Marc-Antoine Lalonde, B. Eng."
-  text: "Systems integration and automation"
-  tagline: "Cross-discipline contractor for software, electronics, instrumentation, and automation. Available for 1 to 6 month engagements."
+  text: "Automation and integration for small business"
+  tagline: "Vague need in. Written spec, passing tests, working system out."
   image:
     src: /images/profile.png
     alt: Marc-Antoine Lalonde
@@ -13,20 +13,20 @@ hero:
       text: Book an intro call
       link: /en/contact
     - theme: alt
-      text: See case studies
-      link: /en/projects/
+      text: How I pick the tools
+      link: /en/method
 
 features:
-  - title: "Software automation and integrations"
-    details: "Connecting previously offline services and automating the menial work: orders, inventory, invoicing, and reporting."
-    link: /en/work-with-me
-  - title: "Self-hosted infrastructure"
-    details: "Reverse proxies, Docker service orchestration, and platforms like Home Assistant, ERPNext, and n8n. Fixed-fee alternatives to per-seat SaaS."
-    link: /en/work-with-me
-  - title: "Instrumentation and automation"
-    details: "Turning manual processes into instrumented, closed-loop systems with reliable data."
-    link: /en/work-with-me
-  - title: "From business need to solution"
-    details: "Translating a vague requirement into a written spec, a test plan, and a working solution, without losing the original intent."
-    link: /en/work-with-me#how-i-work
+  - title: "The spec comes before the code"
+    details: "Every requirement written in plain language, with the test that proves it. Approved by you before anything gets built."
+    link: /en/method
+  - title: "Tools picked for what they do today"
+    details: "Not for what the roadmap promises. Robust, maintained, and already running in my own businesses before they go into yours."
+    link: /en/method
+  - title: "Your data handled by the rules"
+    details: "Consent, retention, access requests, breach procedure, and the privacy impact assessment Quebec requires when a system gets rebuilt."
+    link: /en/work-with-me#data
+  - title: "Everything runs on infrastructure you own"
+    details: "No per-employee bill that grows with the team. No account only I can reach. If we part ways, it keeps running."
+    link: /en/projects/catena
 ---

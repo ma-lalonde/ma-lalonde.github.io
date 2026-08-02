@@ -5,9 +5,9 @@ const SITE_URL = 'https://ma-lalonde.dev'
 const OG_IMAGE = `${SITE_URL}/images/profile.png`
 
 const FR_DESCRIPTION =
-  "Contractuel en intégration de systèmes et automatisation, disponible pour mandats de 1 à 6 mois : logiciel, infrastructure auto-hébergée, intégrations de services et automatisation des processus."
+  "Automatisation et intégration de systèmes pour PME. Besoin flou en entrée; exigences écrites, tests qui passent, système qui marche en sortie. Données et conformité incluses."
 const EN_DESCRIPTION =
-  'Systems integration and automation contractor available for 1 to 6 month engagements: software, self-hosted infrastructure, service integrations, and process automation.'
+  'Automation and systems integration for small business. Vague need in; written spec, passing tests, working system out. Data handling and compliance included.'
 
 export default defineConfig({
   title: 'Marc-Antoine Lalonde',
@@ -27,6 +27,7 @@ export default defineConfig({
         nav: [
           { text: 'Accueil', link: '/' },
           { text: 'Collaborer', link: '/collaborer' },
+          { text: 'Méthode', link: '/methode' },
           { text: 'Projets', link: '/projets/' },
           { text: 'Contact', link: '/contact' }
         ],
@@ -35,7 +36,7 @@ export default defineConfig({
             {
               text: 'Projets',
               items: [
-                { text: 'Auto-hébergement', link: '/projets/self-hosting' },
+                { text: 'Catena', link: '/projets/catena' },
                 { text: 'Chocolat Infini', link: '/projets/chocolate' },
                 { text: 'Connaxio', link: '/projets/connaxio' },
                 { text: 'Magnétomètre quantique', link: '/projets/quantum-magnetometer' },
@@ -68,6 +69,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Work with me', link: '/en/work-with-me' },
+          { text: 'Method', link: '/en/method' },
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Contact', link: '/en/contact' }
         ],
@@ -76,7 +78,7 @@ export default defineConfig({
             {
               text: 'Projects',
               items: [
-                { text: 'Self Hosting', link: '/en/projects/self-hosting' },
+                { text: 'Catena', link: '/en/projects/catena' },
                 { text: 'Chocolat Infini', link: '/en/projects/chocolate' },
                 { text: 'Connaxio', link: '/en/projects/connaxio' },
                 { text: 'Quantum Magnetometer', link: '/en/projects/quantum-magnetometer' },

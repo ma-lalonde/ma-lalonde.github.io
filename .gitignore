@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 .claude
+.token-savior-cache.json
 
 # Editor directories and files
 .vscode/*
