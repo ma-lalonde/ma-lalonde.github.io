@@ -10,8 +10,10 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+docs/.vitepress/cache
 *.local
 .claude
+.token-savior-cache.json
 
 # Editor directories and files
 .vscode/*

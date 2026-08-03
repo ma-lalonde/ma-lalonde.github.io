@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "Marc-Antoine Lalonde, B. Ing."
-  text: "Intégration de systèmes et automatisation"
-  tagline: "Consultant multidisciplinaire en logiciel, électronique, instrumentation et automatisation. Disponible pour mandats de 1 à 6 mois."
+  text: "Automatisation et intégration pour PME"
+  tagline: "Besoin flou en entrée. Exigences écrites, tests qui passent, système qui marche en sortie."
   image:
     src: /images/profile.png
     alt: Marc-Antoine Lalonde
@@ -13,20 +13,20 @@ hero:
       text: Prendre rendez-vous
       link: /contact
     - theme: alt
-      text: Voir les projets
-      link: /projets/
+      text: Comment je choisis les outils
+      link: /methode
 
 features:
-  - title: "Automatisation logicielle et intégrations"
-    details: "Connecter des services jusqu'ici hors ligne et automatiser les tâches répétitives : commandes, inventaire, facturation, rapports."
-    link: /collaborer
-  - title: "Infrastructure auto-hébergée"
-    details: "Serveurs mandataires, orchestration de services par Docker et plateformes comme Home Assistant, ERPNext et n8n. Des solutions à coût fixe en remplacement des SaaS par utilisateur."
-    link: /collaborer
-  - title: "Instrumentation et automatisation"
-    details: "Transformer des procédés manuels en systèmes instrumentés, en boucle fermée, avec des données fiables."
-    link: /collaborer
-  - title: "Du besoin d'affaires à la solution"
-    details: "Traduire un besoin flou en exigences écrites, en plan de test et en solution fonctionnelle, sans perdre l'intention de départ."
-    link: /collaborer#ma-methode
+  - title: "Les exigences avant le code"
+    details: "Chaque exigence écrite en langage clair, avec le test qui la prouve. Approuvée par vous avant que quoi que ce soit se construise."
+    link: /methode
+  - title: "Des outils choisis pour ce qu'ils font aujourd'hui"
+    details: "Pas pour ce que la feuille de route promet. Robustes, entretenus, et déjà en marche dans mes entreprises avant d'entrer dans la vôtre."
+    link: /methode
+  - title: "Vos données traitées dans les règles"
+    details: "Consentement, conservation, demandes d'accès, procédure d'incident, et l'évaluation des facteurs relatifs à la vie privée qu'exige le Québec quand un système est refait."
+    link: /collaborer#donnees
+  - title: "Tout roule sur une infrastructure qui vous appartient"
+    details: "Pas de facture par employé qui grossit avec l'équipe. Pas de compte que moi seul peux atteindre. Si on se sépare, ça continue de rouler."
+    link: /projets/catena
 ---

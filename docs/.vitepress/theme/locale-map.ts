@@ -1,13 +1,14 @@
 export const frToEn: Record<string, string> = {
   '/': '/en/',
   '/collaborer': '/en/work-with-me',
+  '/methode': '/en/method',
   '/contact': '/en/contact',
   '/projets/': '/en/projects/',
+  '/projets/catena': '/en/projects/catena',
   '/projets/chocolate': '/en/projects/chocolate',
   '/projets/connaxio': '/en/projects/connaxio',
   '/projets/drones': '/en/projects/drones',
-  '/projets/quantum-magnetometer': '/en/projects/quantum-magnetometer',
-  '/projets/self-hosting': '/en/projects/self-hosting'
+  '/projets/quantum-magnetometer': '/en/projects/quantum-magnetometer'
 }
 
 export const enToFr: Record<string, string> = Object.fromEntries(
