@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { frToEn, enToFr } from './theme/locale-map'
+import { frToEn, enToFr } from './theme/locale-map.js'
 
 const SITE_URL = 'https://ma-lalonde.dev'
 const OG_IMAGE = `${SITE_URL}/images/profile.png`

@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import { useRoute } from 'vitepress'
 import { computed } from 'vue'
 import { frToEn, enToFr } from './locale-map'
+import BilingualNotFound from './BilingualNotFound.vue'
 
 const { Layout } = DefaultTheme
 const route = useRoute()
@@ -18,6 +19,9 @@ const target = computed(() => {
 
 <template>
   <Layout>
+    <template #not-found>
+      <BilingualNotFound />
+    </template>
     <template #nav-bar-content-after>
       <a
         class="lang-toggle"
