@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Marc-Antoine Lalonde, B. Eng."
-  text: "Automation and integration for small business"
+  text: "Automation, data security and digital sovereignty for SMB"
   tagline: "Vague need in. Written spec, passing tests, working system out."
   image:
     src: /images/profile.png

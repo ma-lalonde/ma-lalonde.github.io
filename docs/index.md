@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Marc-Antoine Lalonde, B. Ing."
-  text: "Automatisation et intégration pour PME"
+  text: "Automatisation, sécurité des données et souveraineté numérique pour PME"
   tagline: "Besoin flou en entrée. Exigences écrites, tests qui passent, système qui marche en sortie."
   image:
     src: /images/profile.png
