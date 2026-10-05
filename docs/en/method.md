@@ -14,7 +14,7 @@ Before a tool goes into a client's business it has usually been running in mine.
 
 **The simplest thing that does the job.**
 
-The standard way to run many applications on one server is built for companies running thousands of them. For a business running fifteen, it adds a full-time job nobody has. There are simpler tools that do the same thing at your scale, and that are easy to understand and maintain for a simgle person.
+The standard way to run many applications on one server is built for companies running thousands of them. For a business running fifteen, it adds a full-time job nobody has. There are simpler tools that do the same thing at your scale, and that are easy to understand and maintain for a single person.
 
 **Nothing that locks you in.**
 
@@ -28,6 +28,6 @@ Backups are restored on a schedule, because a backup nobody has ever restored is
 
 ## Where AI fits
 
-I use AI tools every day and they make the build cheaper for you. They do not decide anything. A system that was six months of work in 2022 is six weeks now. The ways it can break did not shrink with it. That is why the test plan gets written before the first line of code.
+AI is a multiplier: of productivity and of errors alike. With it, writing code stopped being the expensive part of this work. What is left is choosing what to build, on which tools, and proving it does what was asked. None of that is automatic. I use AI tools every day and they make the build cheaper for you. They do not decide anything. A system that was six months of work in 2022 is six weeks now. The ways it can break have only grown. That is why the test plan gets written before the first line of code.
 
 Want to talk it through? [Book a 30-minute call](/en/contact).

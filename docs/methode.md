@@ -10,7 +10,7 @@ Les feuilles de route, c'est du marketing. Si un outil n'a pas la seule chose do
 
 **Robuste, entretenu, et utilisé par d'autres que moi.**
 
-Avant qu'un outil se retrouve dans l'entreprise d'un client, il a généralement déjà roulé dans la mienne. Les commandes, l'inventaire et la comptabilité de Chocolat Infini roulent sur le même système depuis 2021. Je regarde à quelle fréquence ça brise, qui répare, en combien de temps, et ce qui arrive à vos données si ça s'arrête.
+Avant qu'un outil se retrouve dans l'entreprise d'un client, il a généralement déjà roulé dans la mienne. Les commandes, l'inventaire et la comptabilité de Chocolat Infini roulent sur le même système depuis 2024. Je regarde à quelle fréquence ça brise, qui répare, en combien de temps, et ce qui arrive à vos données si ça s'arrête.
 
 **Le plus simple qui fonctionne bien.**
 

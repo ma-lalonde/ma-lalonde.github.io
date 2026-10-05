@@ -14,11 +14,11 @@ Small businesses run on work that gets redone by hand every week: retyping an or
 
 Everything is estimated from a rate of $150 per hour.
 
-**The audit and plan** are billed at that rate, quoted as a flat amount before we start. A single integration usually takes half a day to a day. A business still running on paper takes longer, and you get the number in writing before anything begins.
+**The audit and plan** are billed at that rate. A single integration usually takes half a day to a day. A business still running on paper can take longer.
 
-**The build** is quoted as a flat amount from the plan, estimated at the same rate. Once the number is agreed, it does not move. If it takes me longer than I expected, that is my problem, not your invoice.
+**The build** is quoted as a flat amount from the plan, estimated at the same rate. Once the number is agreed, it does not move. If it takes me longer than I expected, that is my problem, not your invoice. Future fixes included.
 
-**Run** is a fixed monthly amount, cancellable.
+**Run** is a fixed monthly amount, optional, cancellable.
 
 ## Data, privacy, and compliance {#data}
 
@@ -34,21 +34,15 @@ Automating a process means moving personal information around. In Quebec that tr
 
 I am not a lawyer and I do not certify anyone. What I deliver is the implementation and the written procedures: the register, the privacy impact assessment, the breach decision tree, the per-application data export matrix, and evidence that the backups actually restore.
 
-## Where AI fits
-
-Writing code stopped being the expensive part of this work. What is left is choosing what to build, on which tools, and proving it does what was asked. None of that is automatic. I use AI tools every day and they make the build cheaper for you. They do not decide anything. A system that was six months of work in 2022 is six weeks now. The ways it can break did not shrink with it. That is why the test plan gets written before the first line of code.
-
-The detail is on the [Method](/en/method) page.
-
 ## Background
 
-I have been building and shipping this kind of system since 2013, and running my own businesses on it since 2021. Before the software, the work was electronics, firmware and instrumentation: circuit boards, closed-loop process control, lab and production test benches. That is why a process with a sensor or a machine in it is not out of scope when a job needs one.
+I have been writing software since 2013, building robotic systems since 2015, and running my own businesses on self-hosted software since 2021. I have designed software, electronics, firmware, instrumentation and automated production processes. So I can cover pure software automation as well as integrated systems.
 
 ## Out of scope
 
-To self-qualify honestly: I work as an individual contributor, either solo or embedded in your team. I don't take on mobile app development, public-facing front-end work, brand or visual design, or full-time engineering management.
+To self-qualify honestly: I work as an individual contributor, either solo or embedded in your team. I focus on optimization and functionality. I don't take on mobile app development, public-facing front-end work, brand or visual design, or engineering management.
 
-I do regularly build simple internal UIs when they're part of the system I'm delivering: dashboards, admin pages, internal forms. The goal is for the system to be usable, not to win a design award.
+I do regularly build simple internal UIs when they're part of the system I'm delivering: dashboards, admin pages, internal forms.
 
 ## Industries I've shipped in
 
