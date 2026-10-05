@@ -8,17 +8,17 @@ Les PME roulent sur du travail qui se refait à la main chaque semaine : retaper
 2. **Ce sur quoi je peux aider** - écrit, gratuit. Une liste. Pour chaque élément : le travail que ça enlève, à peu près ce que ça demande à construire, et si ça vaut la peine d'être fait. Certains éléments disent non. Vous ne me devez rien à cette étape.
 3. **Audit et plan** - le livrable est une spécification écrite et un plan de test, en langage clair. Ils vous appartiennent, et ils sont assez complets pour que quelqu'un d'autre construise à partir de là si vous préférez.
 4. **Construction** - par itérations, contre le plan de test. Chaque jalon se termine avec les tests qui roulent devant vous.
-5. **Opération** - mensuel, optionnel, annulable. Sauvegardes vérifiées, mises à jour appliquées, restaurations exercées sur une base régulière. Ou bien un transfert, la documentation, et j'ai fini.
+5. **Opération** - mensuel, optionnel, annulable. Sauvegardes vérifiées, mises à jour appliquées, restaurations exercées sur une base régulière. Ou bien un transfert, la documentation, et j'ai fini. 
 
 ## Combien ça coûte
 
 Tout est estimé à partir d'un taux de 150 $ de l'heure.
 
-**L'audit et le plan** sont facturés à ce taux, chiffrés d'avance en montant fixe. Une intégration unique prend généralement d'une demi-journée à une journée. Une entreprise qui roule encore sur papier, c'est plus long, et vous avez le montant par écrit avant qu'on commence.
+**L'audit et le plan** sont facturés à ce taux. Une intégration unique prend généralement d'une demi-journée à une journée. Une entreprise qui roule encore sur papier, ça peut être plus long.
 
-**La construction** est chiffrée en montant fixe à partir du plan, estimée au même taux. Une fois le montant convenu, il ne bouge plus. Si ça me prend plus de temps que prévu, c'est mon problème, pas votre facture.
+**La construction** est chiffrée en montant fixe à partir du plan, estimée au même taux. Une fois le montant convenu, il ne bouge plus. Si ça me prend plus de temps que prévu, c'est mon problème, pas votre facture. Corrections futures incluses.
 
-**L'opération** est un montant mensuel fixe, annulable.
+**L'opération** est un montant mensuel fixe, optionnel, annulable.
 
 ## Données, confidentialité et conformité {#donnees}
 
@@ -34,21 +34,15 @@ Automatiser un processus, c'est déplacer des renseignements personnels. Au Qué
 
 Je ne suis pas avocat et je ne certifie personne. Ce que je livre, c'est la mise en oeuvre et les procédures écrites : le registre, l'évaluation des facteurs relatifs à la vie privée, l'arbre de décision en cas d'incident, la matrice d'exportation des données par application, et la preuve que les sauvegardes se restaurent vraiment.
 
-## Où l'IA entre en jeu
-
-Écrire du code a cessé d'être la partie chère de ce travail. Ce qui reste, c'est choisir quoi construire, sur quels outils, et prouver que ça fait ce qui a été demandé. Rien de tout ça n'est automatique. J'utilise les outils d'IA tous les jours et ils rendent la construction moins chère pour vous. Ils ne décident rien. Un système qui représentait six mois de travail en 2022 en représente six semaines aujourd'hui. Les façons dont il peut briser, elles, n'ont pas rétréci. C'est pour ça que le plan de test s'écrit avant la première ligne de code.
-
-Le détail est sur la page [Méthode](/methode).
-
 ## Parcours
 
-Je construis et je livre ce genre de système depuis 2013, et je fais rouler mes propres entreprises dessus depuis 2021. Avant le logiciel, le travail c'était l'électronique, les microprogrammes et l'instrumentation : circuits imprimés, contrôle de procédés en boucle fermée, bancs de test de laboratoire et de production. C'est pour ça qu'un processus avec un capteur ou une machine dedans n'est pas hors portée quand un mandat en demande un.
+Je développe des programmes depuis 2013, construis des systèmes robotisés depuis 2015, et je fais rouler mes propres entreprises sur des logiciels auto-hébergés depuis 2021. J'ai conçu des logiciels, de l'électronique, des microprogrammes, de l'instrumentation et des processus de production automatisés. Je peux donc couvrir autant des automatisations purement logiciels que des systèmes intégrés.
 
 ## Hors portée
 
-Pour me qualifier honnêtement : je travaille comme contributeur individuel, en solo ou intégré à votre équipe. Je ne prends pas de mandats de développement d'application mobile, de front-end de site public, de design de marque, ni de gestion d'équipe à temps plein.
+Pour me qualifier honnêtement : je travaille comme contributeur individuel, en solo ou intégré à votre équipe. Je suis axé sur l'optimisation et la fonctionnalité. Je ne prends pas de mandats de développement d'application mobile, de front-end de site public, de design de marque, ni de gestion d'équipe.
 
-Par contre, je fais régulièrement des interfaces graphiques internes simples quand ça fait partie du système : tableaux de bord, pages d'administration, formulaires internes. L'objectif, c'est que le système soit utilisable, pas qu'il gagne un prix de design.
+Par contre, je fais régulièrement des interfaces graphiques internes simples quand ça fait partie du système : tableaux de bord, pages d'administration, formulaires internes.
 
 ## Secteurs où j'ai livré
 

@@ -28,6 +28,6 @@ Les sauvegardes sont restaurées sur une base régulière, parce qu'une sauvegar
 
 ## Où l'IA entre en jeu
 
-J'utilise les outils d'IA tous les jours et ils rendent la construction moins chère pour vous. Ils ne décident rien. Un système qui représentait six mois de travail en 2022 en représente six semaines aujourd'hui. Les façons dont il peut briser, elles, n'ont pas diminué. C'est pour ça que le plan de test s'écrit avant la première ligne de code.
+L'IA est un multiplicateur: de productivité comme d'erreurs. Avec elle, écrire du code a cessé d'être la partie chère de ce travail. Ce qui reste, c'est choisir quoi construire, sur quels outils, et prouver que ça fait ce qui a été demandé. Rien de tout ça n'est automatique. J'utilise les outils d'IA tous les jours et ils rendent la construction moins chère pour vous. Ils ne décident rien. Un système qui représentait six mois de travail en 2022 en représente six semaines aujourd'hui. Les façons dont il peut briser, elles, n'ont fait qu'augmenter. C'est pour ça que le plan de test s'écrit avant la première ligne de code.
 
 Prêt à en parler ? [Réservez un appel de 30 minutes](/contact).
