@@ -5,9 +5,6 @@ hero:
   name: "Marc-Antoine Lalonde, B. Eng."
   text: "Automation and systems integration consultant"
   tagline: "Modernization | Automation | Optimization | Data security | Digital sovereignty"
-  image:
-    src: /images/profile.png
-    alt: Marc-Antoine Lalonde
   actions:
     - theme: brand
       text: Book a call

@@ -20,6 +20,78 @@
   letter-spacing: -0.02em;
 }
 
+/* Home hero: centered, name and title share one line above the keywords */
+.VPHome .VPHero .container {
+  text-align: center;
+}
+
+.VPHome .VPHero .main {
+  width: 100%;
+}
+
+.VPHome .VPHero .heading {
+  align-items: center;
+}
+
+.VPHome .VPHero .name,
+.VPHome .VPHero .text,
+.VPHome .VPHero .tagline {
+  max-width: none;
+}
+
+.VPHome .VPHero .name {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.VPHome .VPHero .text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.VPHome .VPHero .tagline {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.VPHome .VPHero .actions {
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .VPHome .VPHero .name {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .VPHome .VPHero .text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .VPHome .VPHero .tagline {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .VPHome .VPHero .heading {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.5em;
+  }
+
+  .VPHome .VPHero .text::before {
+    content: '|';
+    margin-right: 0.5em;
+    color: var(--vp-c-divider);
+  }
+}
+
 .VPNavBarTranslations,
 .VPNavScreenTranslations {
   display: none !important;
