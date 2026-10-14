@@ -21,7 +21,7 @@ jobs:
     # @main on purpose: first-party reusable workflow, auto-updating, gated
     # by the ruleset on catenahq/scanctl itself (zizmor's bundled policy
     # allows catenahq/* ref-pins; renovate-config stops Renovate re-pinning
-    # it to a SHA, which froze this repo at a scanctl without --baseline-ref).
+    # it to a SHA).
     uses: catenahq/scanctl/.github/workflows/github-reusable.yml@main
     permissions:
       contents: read
