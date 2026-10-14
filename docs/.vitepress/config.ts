@@ -29,6 +29,20 @@ export default defineConfig({
           { text: 'Projets', link: '/projets/' },
           { text: 'Contact', link: '/contact' }
         ],
+        sidebar: {
+          '/projets/': [
+            {
+              text: 'Projets',
+              items: [
+                { text: 'Catena', link: '/projets/catena' },
+                { text: 'Chocolat Infini', link: '/projets/chocolate' },
+                { text: 'Connaxio', link: '/projets/connaxio' },
+                { text: 'Magnétomètre quantique', link: '/projets/quantum-magnetometer' },
+                { text: 'VAMUdeS', link: '/projets/drones' }
+              ]
+            }
+          ]
+        },
         outline: { label: 'Sur cette page' },
         docFooter: { prev: 'Précédent', next: 'Suivant' },
         returnToTopLabel: 'Retour en haut',
@@ -54,7 +68,21 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Contact', link: '/en/contact' }
-        ]
+        ],
+        sidebar: {
+          '/en/projects/': [
+            {
+              text: 'Projects',
+              items: [
+                { text: 'Catena', link: '/en/projects/catena' },
+                { text: 'Chocolat Infini', link: '/en/projects/chocolate' },
+                { text: 'Connaxio', link: '/en/projects/connaxio' },
+                { text: 'Quantum Magnetometer', link: '/en/projects/quantum-magnetometer' },
+                { text: 'VAMUdeS', link: '/en/projects/drones' }
+              ]
+            }
+          ]
+        }
       },
       head: [
         ['meta', { name: 'description', content: EN_DESCRIPTION }],

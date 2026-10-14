@@ -31,11 +31,11 @@ features:
 
 Je programme depuis 2013, je construis des systèmes robotisés depuis 2015 et je fais rouler mes propres entreprises sur des logiciels auto-hébergés depuis 2021. Logiciel, électronique, microprogramme, instrumentation et production automatisée : je couvre autant l'automatisation purement logicielle que les systèmes intégrés.
 
-- **En cours** - [Catena](/projets/#catena) : logiciels d'affaires auto-hébergés pour PME, testés automatiquement.
-- **2024 à aujourd'hui** - [Chocolat Infini](/projets/#chocolate) : chocolaterie bean-to-bar à la production entièrement instrumentée, médailles d'or en 2025.
-- **2021-2024** - [Connaxio](/projets/#connaxio) : consultation en électronique et en logiciel, fabrication de circuits imprimés à l'interne.
-- **2018-2020** - [SBQuantum et Université de Sherbrooke](/projets/#quantum-magnetometer) : magnétomètre quantique miniaturisé sur un seul circuit, dont la lignée est aujourd'hui en orbite.
-- **2016-2018** - [VAMUdeS](/projets/#drones) : drones de surveillance autonomes, trois victoires d'affilée à AUVSI-SUAS.
+- **En cours** - [Catena](/projets/catena) : logiciels d'affaires auto-hébergés pour PME, testés automatiquement.
+- **2024-2026** - [Chocolat Infini](/projets/chocolate) : chocolaterie bean-to-bar à la production entièrement instrumentée, médailles d'or en 2025.
+- **2021-2024** - [Connaxio](/projets/connaxio) : consultation en électronique et en logiciel, fabrication de circuits imprimés à l'interne.
+- **2018-2020** - [SBQuantum et Université de Sherbrooke](/projets/quantum-magnetometer) : magnétomètre quantique miniaturisé sur un seul circuit, dont la lignée est aujourd'hui en orbite.
+- **2016-2018** - [VAMUdeS](/projets/drones) : drones de surveillance autonomes, trois victoires d'affilée à AUVSI-SUAS.
 
 ## Comment on travaille ensemble
 
@@ -46,7 +46,3 @@ Je programme depuis 2013, je construis des systèmes robotisés depuis 2015 et j
 5. **Soutien** - sauvegardes vérifiées, mises à jour appliquées, restaurations exercées. Optionnel et annulable.
 
 Quand c'est possible, chaque étape est jumelée à un programme de subvention pour en réduire le coût.
-
-## Avec qui j'ai travaillé
-
-<ClientBanner locale="fr" />
