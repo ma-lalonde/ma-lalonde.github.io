@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { frToEn, enToFr } from './theme/locale-map.js'
 
 const SITE_URL = 'https://ma-lalonde.dev'
-const OG_IMAGE = `${SITE_URL}/images/profile.png`
+const OG_IMAGE = `${SITE_URL}/images/profile.jpg`
 
 const FR_DESCRIPTION =
   "Modernisation, automatisation et optimisation pour PME : du temps et de l'argent sauvés, plus de productivité et de rendement, des données sécurisées et souveraines."
