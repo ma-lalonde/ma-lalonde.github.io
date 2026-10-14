@@ -2,6 +2,7 @@ import type { Theme, Router } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import CalInline from './components/CalInline.vue'
+import ClientBanner from './components/ClientBanner.vue'
 import ContactForm from './components/ContactForm.vue'
 import { localeAliases } from './locale-map'
 import './style.css'
@@ -11,6 +12,7 @@ const theme: Theme = {
   Layout,
   enhanceApp({ app, router }: { app: any; router: Router }) {
     app.component('CalInline', CalInline)
+    app.component('ClientBanner', ClientBanner)
     app.component('ContactForm', ContactForm)
 
     if (typeof window === 'undefined') return
@@ -20,8 +22,8 @@ const theme: Theme = {
       const normalized = pathOnly.replace(/\.html$/, '')
       const mapped = localeAliases[normalized]
       if (mapped) {
-        const target = hash ? `${mapped}#${hash}` : mapped
-        queueMicrotask(() => router.go(target))
+        const target = hash && !mapped.includes('#') ? `${mapped}#${hash}` : mapped
+        queueMicrotask(() => router.go(target, { replace: true }))
         return false
       }
       return previousHook?.(to)
