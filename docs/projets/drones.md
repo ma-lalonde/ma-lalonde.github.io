@@ -2,15 +2,15 @@
 
 ## Résumé
 
-**Contexte** — J'ai fait partie de VAMUdeS, l'équipe universitaire de drones autonomes de l'Université de Sherbrooke, de 2016 à 2018, et on participait chaque année au concours [AUVSI-SUAS](https://suas-competition.org/).
+**Contexte** - J'ai fait partie de VAMUdeS, l'équipe universitaire de drones autonomes de l'Université de Sherbrooke, de 2016 à 2018, et on participait chaque année au concours [AUVSI-SUAS](https://suas-competition.org/).
 
-**Problème** — Le défi était de construire un système de surveillance aérienne entièrement autonome, capable de trouver, identifier et géolocaliser des cibles au sol depuis un drone qui vibrait à 60 m d'altitude et à 20 m/s — et de le faire mieux que toutes les autres équipes universitaires au concours.
+**Problème** - Le défi était de construire un système de surveillance aérienne entièrement autonome, capable de trouver, identifier et géolocaliser des cibles au sol depuis un drone qui vibrait à 60 m d'altitude et à 20 m/s - et de le faire mieux que toutes les autres équipes universitaires au concours.
 
-**Mon rôle** — J'ai dirigé le système de surveillance géoréférencé, l'interface de la station au sol, le design RF et antennes (incluant la gestion des interférences entre le pilote manuel, l'autopilote et les liens caméra), et la qualité de service (QoS) réseau pour un lien air-sol souvent pénible. J'ai aussi co-conçu une de nos plateformes hexacoptères.
+**Mon rôle** - J'ai dirigé le système de surveillance géoréférencé, l'interface de la station au sol, le design RF et antennes (incluant la gestion des interférences entre le pilote manuel, l'autopilote et les liens caméra), et la qualité de service (QoS) réseau pour un lien air-sol souvent pénible. J'ai aussi co-conçu une de nos plateformes hexacoptères.
 
-**Résultat** — On a gagné AUVSI-SUAS trois années de suite — 2016, 2017 et 2018 — avec une précision de géolocalisation brute vérifiée de 3 m dans les conditions de vol décrites plus haut.
+**Résultat** - On a gagné AUVSI-SUAS trois années de suite - 2016, 2017 et 2018 - avec une précision de géolocalisation brute vérifiée de 3 m dans les conditions de vol décrites plus haut.
 
-**Stack** — Avionique embarquée, design RF et antennes, réseau avec QoS, interface de station au sol en Python, géobarrières et algorithmes d'évitement d'obstacles.
+**Stack** - Avionique embarquée, design RF et antennes, réseau avec QoS, interface de station au sol en Python, géobarrières et algorithmes d'évitement d'obstacles.
 
 ## L'histoire complète
 

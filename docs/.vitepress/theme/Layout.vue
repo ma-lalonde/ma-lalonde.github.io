@@ -22,6 +22,9 @@ const target = computed(() => {
     <template #not-found>
       <BilingualNotFound />
     </template>
+    <template #home-hero-info-before>
+      <img class="hero-photo" src="/images/profile.jpg" alt="Marc-Antoine Lalonde" />
+    </template>
     <template #nav-bar-content-after>
       <a
         class="lang-toggle"
@@ -66,5 +69,14 @@ const target = computed(() => {
   margin-top: 16px;
   margin-left: 0;
   align-self: flex-start;
+}
+
+.hero-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 </style>

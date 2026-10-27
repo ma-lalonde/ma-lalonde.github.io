@@ -21,7 +21,7 @@ const theme: Theme = {
       const mapped = localeAliases[normalized]
       if (mapped) {
         const target = hash ? `${mapped}#${hash}` : mapped
-        queueMicrotask(() => router.go(target))
+        queueMicrotask(() => router.go(target, { replace: true }))
         return false
       }
       return previousHook?.(to)

@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 import { frToEn, enToFr } from './theme/locale-map.js'
 
 const SITE_URL = 'https://ma-lalonde.dev'
-const OG_IMAGE = `${SITE_URL}/images/profile.png`
+const OG_IMAGE = `${SITE_URL}/images/profile.jpg`
 
 const FR_DESCRIPTION =
-  "Automatisation et intégration de systèmes pour PME. Besoin flou en entrée; exigences écrites, tests qui passent, système qui marche en sortie. Données et conformité incluses."
+  "Modernisation, automatisation et optimisation pour PME : du temps et de l'argent sauvés, plus de productivité et de rendement, des données sécurisées et souveraines."
 const EN_DESCRIPTION =
-  'Automation and systems integration for small business. Vague need in; written spec, passing tests, working system out. Data handling and compliance included.'
+  'Modernization, automation and optimization for small business: time and money saved, higher productivity and yield, data kept secure and under your control.'
 
 export default defineConfig({
   title: 'Marc-Antoine Lalonde',
@@ -26,8 +26,6 @@ export default defineConfig({
         siteTitle: false,
         nav: [
           { text: 'Accueil', link: '/' },
-          { text: 'Collaborer', link: '/collaborer' },
-          { text: 'Méthode', link: '/methode' },
           { text: 'Projets', link: '/projets/' },
           { text: 'Contact', link: '/contact' }
         ],
@@ -68,8 +66,6 @@ export default defineConfig({
         siteTitle: false,
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Work with me', link: '/en/work-with-me' },
-          { text: 'Method', link: '/en/method' },
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Contact', link: '/en/contact' }
         ],

@@ -2,15 +2,15 @@
 
 ## Summary
 
-**Context** — I worked with [SBQuantum](https://sbquantum.com/) and Université de Sherbrooke from 2018 through 2020, first as an intern, then through my undergraduate capstone project, and finally on two funded proposals.
+**Context** - I worked with [SBQuantum](https://sbquantum.com/) and Université de Sherbrooke from 2018 through 2020, first as an intern, then through my undergraduate capstone project, and finally on two funded proposals.
 
-**Problem** — The goal was to miniaturize a modular lab magnetometer onto a single PCB, and then to qualify a space-grade version of it for a CubeSat mission measuring Earth's magnetic field.
+**Problem** - The goal was to miniaturize a modular lab magnetometer onto a single PCB, and then to qualify a space-grade version of it for a CubeSat mission measuring Earth's magnetic field.
 
-**My role** — I contributed to the V2 single-board PCB, led project management and the Phase-Locked Loop RF subsystem on the space-grade capstone, and in 2019 and 2020 I led the writing of the [MagQuest](https://www.magquest.com) Phase 2 and 3 proposals while building test benches for the V3.
+**My role** - I contributed to the V2 single-board PCB, led project management and the Phase-Locked Loop RF subsystem on the space-grade capstone, and in 2019 and 2020 I led the writing of the [MagQuest](https://www.magquest.com) Phase 2 and 3 proposals while building test benches for the V3.
 
-**Outcome** — The V2 was the first single-board magnetometer at the company, and the sensor lineage [launched into orbit in March 2026](https://sbquantum.com/sbquantum_space_pr/) aboard a Spire Global satellite — SBQuantum's first-ever space deployment, as part of the MagQuest Phase 4 program.
+**Outcome** - The V2 was the first single-board magnetometer at the company, and the sensor lineage [launched into orbit in March 2026](https://sbquantum.com/sbquantum_space_pr/) aboard a Spire Global satellite - SBQuantum's first-ever space deployment, as part of the MagQuest Phase 4 program.
 
-**Stack** — Mixed-signal PCB design, RF and PLL circuitry, laser and microwave control, NV-centre physics, technical proposal writing.
+**Stack** - Mixed-signal PCB design, RF and PLL circuitry, laser and microwave control, NV-centre physics, technical proposal writing.
 
 ## The long story
 
@@ -28,6 +28,6 @@ Below are shown the 8x3 peaks of the calibration sequence. The peaks come in 4 p
 
 In 2019 and 2020, I worked on the [MagQuest](https://www.magquest.com) Phase 2 and 3 proposals, where I led the writing of the proposal describing the design of a satellite mission to measure Earth's magnetic field to update the World Magnetic Model and built a few test benches for the magnetometer (V3 at the time) and some of its parts.
 
-In [March 2026](https://sbquantum.com/sbquantum_space_pr/), SBQuantum launched their first quantum magnetometer into orbit aboard a Spire Global satellite — part of the MagQuest Phase 4 deployment, with partners that include the NGA, ESA, NASA Goddard, and the Canadian Department of National Defence. The mission continues the same line of work the Phase 2 and 3 proposals described: using a diamond NV-centre sensor in orbit to continuously monitor Earth's magnetic field and enable GPS-independent navigation.
+In [March 2026](https://sbquantum.com/sbquantum_space_pr/), SBQuantum launched their first quantum magnetometer into orbit aboard a Spire Global satellite - part of the MagQuest Phase 4 deployment, with partners that include the NGA, ESA, NASA Goddard, and the Canadian Department of National Defence. The mission continues the same line of work the Phase 2 and 3 proposals described: using a diamond NV-centre sensor in orbit to continuously monitor Earth's magnetic field and enable GPS-independent navigation.
 
 

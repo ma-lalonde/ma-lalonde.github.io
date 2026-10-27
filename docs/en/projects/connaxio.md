@@ -2,15 +2,15 @@
 
 ## Summary
 
-**Context** — Connaxio was my first business: a small electronics and software consulting and PCB shop that I founded and ran solo from 2021 to 2024.
+**Context** - Connaxio was my first business: a small electronics and software consulting and PCB shop that I founded and ran solo from 2021 to 2024.
 
-**Problem** — Small teams, labs, and farms needed help shipping custom electronics, firmware, and automation without the overhead of a large supplier. The hard part: the same person had to be comfortable going from schematic to deployed system, because handoffs between specialists are exactly where small projects die.
+**Problem** - Small teams, labs, and farms needed help shipping custom electronics, firmware, and automation without the overhead of a large supplier. The hard part: the same person had to be comfortable going from schematic to deployed system, because handoffs between specialists are exactly where small projects die.
 
-**My role** — I did every part of the work myself, from schematic capture and PCB layout to in-house pick-and-place assembly, firmware, client engagement, and day-to-day operations.
+**My role** - I did every part of the work myself, from schematic capture and PCB layout to in-house pick-and-place assembly, firmware, client engagement, and day-to-day operations.
 
-**Outcome** — I took on paying engagements across automation, networking, and custom PCBs for a handful of repeat clients, published several open circuit designs on top of that, and built a working low-volume manufacturing capability entirely in-house.
+**Outcome** - I took on paying engagements across automation, networking, and custom PCBs for a handful of repeat clients, published several open circuit designs on top of that, and built a working low-volume manufacturing capability entirely in-house.
 
-**Stack** — KiCad, LitePlacer with OpenPnP, reflow soldering, computer vision, 3D printing.
+**Stack** - KiCad, LitePlacer with OpenPnP, reflow soldering, computer vision, 3D printing.
 
 ## The long story
 
