@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { frToEn, enToFr } from './theme/locale-map.js'
 
 const SITE_URL = 'https://ma-lalonde.dev'
@@ -8,6 +8,29 @@ const FR_DESCRIPTION =
   "Modernisation, automatisation et optimisation pour PME : du temps et de l'argent sauvés, plus de productivité et de rendement, des données sécurisées et souveraines."
 const EN_DESCRIPTION =
   'Modernization, automation and optimization for small business: time and money saved, higher productivity and yield, data kept secure and under your control.'
+
+// Self-hosted Umami visit counting, wired at build time. The tag is emitted
+// only when both variables are set. It counts ma-lalonde.dev only
+// (data-domains), skips browsers that ask not to be tracked and drops the
+// query string.
+const UMAMI_SCRIPT_URL = process.env.UMAMI_SCRIPT_URL
+const UMAMI_WEBSITE_ID = process.env.UMAMI_WEBSITE_ID
+const umamiHead: HeadConfig[] =
+  UMAMI_SCRIPT_URL && UMAMI_WEBSITE_ID
+    ? [
+        [
+          'script',
+          {
+            defer: '',
+            src: UMAMI_SCRIPT_URL,
+            'data-website-id': UMAMI_WEBSITE_ID,
+            'data-domains': 'ma-lalonde.dev',
+            'data-do-not-track': 'true',
+            'data-exclude-search': 'true'
+          }
+        ]
+      ]
+    : []
 
 export default defineConfig({
   title: 'Marc-Antoine Lalonde',
@@ -129,7 +152,8 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: OG_IMAGE }],
     ['meta', { property: 'og:image:alt', content: 'Marc-Antoine Lalonde' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: OG_IMAGE }]
+    ['meta', { name: 'twitter:image', content: OG_IMAGE }],
+    ...umamiHead
   ],
 
   transformHead({ pageData }) {

@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-Dernière mise à jour : 27 octobre 2026
+Dernière mise à jour : 9 novembre 2026
 
 Cette politique explique quels renseignements personnels ce site recueille, pourquoi, où ils sont conservés et comment exercer vos droits en vertu de la Loi sur la protection des renseignements personnels dans le secteur privé du Québec.
 
@@ -16,16 +16,18 @@ Marc-Antoine Lalonde est responsable de la protection des renseignements personn
 | Vous prenez rendez-vous | Nom, courriel, moment choisi, notes ajoutées | Planifier l'appel | Mon calendrier Nextcloud, hébergé [LIEU À CONFIRMER] |
 | Vous naviguez sur le site | Adresse IP, informations techniques sur le navigateur | Bloquer les envois automatisés (Cloudflare Turnstile) | Cloudflare (États-Unis) |
 | Vous naviguez sur le site | Adresse IP, page demandée, dans les journaux du serveur | Livrer les pages et assurer la sécurité | GitHub Pages (États-Unis) |
+| Vous naviguez sur le site | Page visitée, site d'origine, navigateur, système, type d'appareil, langue, pays, région et ville (tirés de l'adresse IP, qui n'est pas gardée) | Compter les visites | Umami, sur mon propre serveur hébergé au Québec |
 
-Le site n'utilise aucun outil d'analyse ni témoin (cookie) de suivi publicitaire. Il garde votre choix de mode clair ou sombre dans votre navigateur. La page de réservation Nextcloud, sur son propre domaine, peut déposer des témoins techniques nécessaires à son fonctionnement.
+Le site ne dépose aucun témoin (cookie) de suivi. Le comptage des visites (Umami) n'utilise aucun témoin et ne garde pas votre adresse IP; si votre navigateur demande de ne pas être suivi, rien n'est compté. Le site garde votre choix de mode clair ou sombre dans votre navigateur. La page de réservation Nextcloud, sur son propre domaine, peut déposer des témoins techniques nécessaires à son fonctionnement.
 
 ## Communication à l'extérieur du Québec
 
-Cloudflare et GitHub sont des entreprises établies aux États-Unis. Les renseignements qu'elles traitent pour ce site peuvent être conservés à l'extérieur du Québec.
+Cloudflare et GitHub sont des entreprises établies aux États-Unis. Les renseignements qu'elles traitent pour ce site peuvent être conservés à l'extérieur du Québec. Les requêtes de comptage des visites transitent aussi par Cloudflare avant d'atteindre mon serveur.
 
 ## Conservation
 
 - Messages et rendez-vous : [DURÉE À CONFIRMER] après notre dernier échange, puis détruits.
+- Statistiques de visites : 25 mois, puis supprimées une fois par année.
 - Journaux techniques : selon les politiques de GitHub et de Cloudflare.
 
 ## Qui y a accès
