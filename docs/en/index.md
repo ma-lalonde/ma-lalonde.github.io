@@ -24,16 +24,6 @@ features:
     details: "Your tools run on infrastructure you own. No per-employee bill, nothing that locks you in, and if we part ways, it keeps running."
 ---
 
-## Experience
-
-I have been writing software since 2013, building robotic systems since 2015, and running my own businesses on self-hosted software since 2021. Software, electronics, firmware, instrumentation and automated production: I cover pure software automation as well as integrated systems.
-
-- **Ongoing** - [Catena](/en/projects/catena): self-hosted business software for small companies, tested automatically.
-- **2024-2026** - [Chocolat Infini](/en/projects/chocolate): bean-to-bar chocolate maker with a fully instrumented production line, gold medals in 2025.
-- **2021-2024** - [Connaxio](/en/projects/connaxio): electronics and software consulting, in-house PCB manufacturing.
-- **2018-2020** - [SBQuantum and Université de Sherbrooke](/en/projects/quantum-magnetometer): quantum magnetometer miniaturized to a single board, its lineage now in orbit.
-- **2016-2018** - [VAMUdeS](/en/projects/drones): autonomous surveillance drones, three AUVSI-SUAS wins in a row.
-
 ## How we work together
 
 1. **Discovery call** - 30 minutes, free. You walk me through a normal week and what gets redone by hand.

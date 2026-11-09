@@ -1,4 +1,4 @@
-# Quantum magnetometer
+# SBQuantum and QMSat (2018-2020)
 
 ## Summary
 

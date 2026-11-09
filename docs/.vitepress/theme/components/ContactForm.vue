@@ -1,18 +1,20 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 
 const props = withDefaults(
   defineProps<{
     locale?: 'fr' | 'en'
-    action?: string
+    endpoint?: string
     turnstileSiteKey?: string
   }>(),
   {
     locale: 'en',
-    action: 'https://formspree.io/f/xqedwpvv',
+    endpoint: 'https://[ERPNEXT HOST]/api/method/website_contact',
     turnstileSiteKey: '0x4AAAAAAChjL3Wc5kWV0cXZ'
   }
 )
+
+const state = ref<'idle' | 'sending' | 'sent' | 'error'>('idle')
 
 const strings = computed(() => {
   if (props.locale === 'fr') {
@@ -20,35 +22,59 @@ const strings = computed(() => {
       name: 'Nom',
       email: 'Courriel',
       message: 'Message',
-      submit: 'Envoyer'
+      submit: 'Envoyer',
+      sending: 'Envoi...',
+      sent: 'Merci, votre message est bien reçu. Je vous réponds sous peu.',
+      error: "L'envoi a échoué. Réessayez dans un moment."
     }
   }
   return {
     name: 'Name',
     email: 'Email',
     message: 'Message',
-    submit: 'Send message'
+    submit: 'Send message',
+    sending: 'Sending...',
+    sent: 'Thanks, your message was received. I will get back to you shortly.',
+    error: 'Sending failed. Please try again in a moment.'
   }
 })
+
+async function submit(event: Event) {
+  const form = event.target as HTMLFormElement
+  state.value = 'sending'
+  try {
+    // URL-encoded body keeps this a simple CORS request (no preflight)
+    const response = await fetch(props.endpoint, {
+      method: 'POST',
+      body: new URLSearchParams(new FormData(form) as any)
+    })
+    if (!response.ok) throw new Error(String(response.status))
+    form.reset()
+    state.value = 'sent'
+  } catch {
+    state.value = 'error'
+  } finally {
+    // a Turnstile token is single-use
+    ;(window as any).turnstile?.reset()
+  }
+}
 </script>
 
 <template>
-  <form :action="action" method="POST" class="contact-form">
-    <input type="hidden" name="_language" :value="locale" />
-
+  <form class="contact-form" @submit.prevent="submit">
     <div class="contact-form__group">
       <label for="name">{{ strings.name }}</label>
-      <input type="text" id="name" name="name" required />
+      <input type="text" id="name" name="name" maxlength="140" required />
     </div>
 
     <div class="contact-form__group">
       <label for="email">{{ strings.email }}</label>
-      <input type="email" id="email" name="email" required />
+      <input type="email" id="email" name="email" maxlength="140" required />
     </div>
 
     <div class="contact-form__group">
       <label for="message">{{ strings.message }}</label>
-      <textarea id="message" name="message" rows="6" required></textarea>
+      <textarea id="message" name="message" rows="6" maxlength="5000" required></textarea>
     </div>
 
     <div
@@ -57,7 +83,14 @@ const strings = computed(() => {
       data-theme="auto"
     ></div>
 
-    <button type="submit">{{ strings.submit }}</button>
+    <button type="submit" :disabled="state === 'sending'">
+      {{ state === 'sending' ? strings.sending : strings.submit }}
+    </button>
+
+    <p v-if="state === 'sent'" class="contact-form__status" role="status">{{ strings.sent }}</p>
+    <p v-if="state === 'error'" class="contact-form__status contact-form__status--error" role="alert">
+      {{ strings.error }}
+    </p>
   </form>
 </template>
 
@@ -110,5 +143,18 @@ const strings = computed(() => {
 
 .contact-form button:hover {
   opacity: 0.9;
+}
+
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.contact-form__status {
+  margin: 0;
+}
+
+.contact-form__status--error {
+  color: var(--vp-c-danger-1);
 }
 </style>

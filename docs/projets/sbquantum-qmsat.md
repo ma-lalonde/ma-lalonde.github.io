@@ -1,4 +1,4 @@
-# Magnétomètre quantique
+# SBQuantum et QMSat (2018-2020)
 
 ## Résumé
 

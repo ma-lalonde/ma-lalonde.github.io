@@ -1,4 +1,4 @@
-# Catena
+# Catena (depuis 2026)
 
 ## Résumé
 

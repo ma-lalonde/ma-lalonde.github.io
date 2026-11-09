@@ -27,18 +27,30 @@ export default defineConfig({
         nav: [
           { text: 'Accueil', link: '/' },
           { text: 'Projets', link: '/projets/' },
+          { text: 'Subventions', link: '/subventions' },
           { text: 'Contact', link: '/contact' }
         ],
+        footer: {
+          message: '<a href="/confidentialite">Politique de confidentialité</a>'
+        },
         sidebar: {
           '/projets/': [
             {
               text: 'Projets',
               items: [
-                { text: 'Catena', link: '/projets/catena' },
-                { text: 'Chocolat Infini', link: '/projets/chocolate' },
-                { text: 'Connaxio', link: '/projets/connaxio' },
-                { text: 'Magnétomètre quantique', link: '/projets/quantum-magnetometer' },
-                { text: 'VAMUdeS', link: '/projets/drones' }
+                { text: 'Catena (depuis 2026)', link: '/projets/catena' },
+                { text: 'Chocolat Infini (2024-2026)', link: '/projets/chocolate' },
+                { text: 'Connaxio (2021-2024)', link: '/projets/connaxio' },
+                { text: 'VAMUdeS (2016-2018)', link: '/projets/drones' }
+              ]
+            },
+            {
+              text: 'Clients',
+              items: [
+                { text: 'Human Garage', link: '/projets/human-garage' },
+                { text: 'West Coast Fungi', link: '/projets/west-coast-fungi' },
+                { text: 'Revolutionnez.ca', link: '/projets/revolutionnez' },
+                { text: 'SBQuantum et QMSat (2018-2020)', link: '/projets/sbquantum-qmsat' }
               ]
             }
           ]
@@ -69,16 +81,27 @@ export default defineConfig({
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Contact', link: '/en/contact' }
         ],
+        footer: {
+          message: '<a href="/en/privacy">Privacy policy</a>'
+        },
         sidebar: {
           '/en/projects/': [
             {
               text: 'Projects',
               items: [
-                { text: 'Catena', link: '/en/projects/catena' },
-                { text: 'Chocolat Infini', link: '/en/projects/chocolate' },
-                { text: 'Connaxio', link: '/en/projects/connaxio' },
-                { text: 'Quantum Magnetometer', link: '/en/projects/quantum-magnetometer' },
-                { text: 'VAMUdeS', link: '/en/projects/drones' }
+                { text: 'Catena (since 2026)', link: '/en/projects/catena' },
+                { text: 'Chocolat Infini (2024-2026)', link: '/en/projects/chocolate' },
+                { text: 'Connaxio (2021-2024)', link: '/en/projects/connaxio' },
+                { text: 'VAMUdeS (2016-2018)', link: '/en/projects/drones' }
+              ]
+            },
+            {
+              text: 'Clients',
+              items: [
+                { text: 'Human Garage', link: '/en/projects/human-garage' },
+                { text: 'West Coast Fungi', link: '/en/projects/west-coast-fungi' },
+                { text: 'Revolutionnez.ca', link: '/en/projects/revolutionnez' },
+                { text: 'SBQuantum and QMSat (2018-2020)', link: '/en/projects/sbquantum-qmsat' }
               ]
             }
           ]
@@ -93,15 +116,6 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
-      }
-    ],
     [
       'script',
       {
