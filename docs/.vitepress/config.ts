@@ -68,11 +68,9 @@ export default defineConfig({
               ]
             },
             {
-              text: 'Clients',
+              text: 'Mandats',
               items: [
-                { text: 'Human Garage', link: '/projets/human-garage' },
-                { text: 'West Coast Fungi', link: '/projets/west-coast-fungi' },
-                { text: 'Revolutionnez.ca', link: '/projets/revolutionnez' },
+                { text: 'Mandats', link: '/projets/mandats' },
                 { text: 'SBQuantum et QMSat (2018-2020)', link: '/projets/sbquantum-qmsat' }
               ]
             }
@@ -119,11 +117,9 @@ export default defineConfig({
               ]
             },
             {
-              text: 'Clients',
+              text: 'Work',
               items: [
-                { text: 'Human Garage', link: '/en/projects/human-garage' },
-                { text: 'West Coast Fungi', link: '/en/projects/west-coast-fungi' },
-                { text: 'Revolutionnez.ca', link: '/en/projects/revolutionnez' },
+                { text: 'Work', link: '/en/projects/work' },
                 { text: 'SBQuantum and QMSat (2018-2020)', link: '/en/projects/sbquantum-qmsat' }
               ]
             }

@@ -8,9 +8,8 @@ export const frToEn: Record<string, string> = {
   '/projets/connaxio': '/en/projects/connaxio',
   '/projets/drones': '/en/projects/drones',
   '/projets/sbquantum-qmsat': '/en/projects/sbquantum-qmsat',
-  '/projets/human-garage': '/en/projects/human-garage',
-  '/projets/west-coast-fungi': '/en/projects/west-coast-fungi',
-  '/projets/revolutionnez': '/en/projects/revolutionnez'
+  '/projets/mandats': '/en/projects/work',
+  '/projets/quantum-magnetometer': '/en/projects/quantum-magnetometer'
 }
 
 export const enToFr: Record<string, string> = Object.fromEntries(
