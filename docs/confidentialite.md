@@ -1,6 +1,6 @@
 # Politique de confidentialité
 
-Dernière mise à jour : 9 novembre 2026
+Dernière mise à jour : 10 novembre 2026
 
 Cette politique explique quels renseignements personnels ce site recueille, pourquoi, où ils sont conservés et comment exercer vos droits en vertu de la Loi sur la protection des renseignements personnels dans le secteur privé du Québec.
 
@@ -27,7 +27,7 @@ Cloudflare et GitHub sont des entreprises établies aux États-Unis. Les renseig
 ## Conservation
 
 - Messages et rendez-vous : [DURÉE À CONFIRMER] après notre dernier échange, puis détruits.
-- Statistiques de visites : 25 mois, puis supprimées une fois par année.
+- Statistiques de visites : conservées sans limite de durée.
 - Journaux techniques : selon les politiques de GitHub et de Cloudflare.
 
 ## Qui y a accès

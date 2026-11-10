@@ -1,6 +1,6 @@
 # Privacy policy
 
-Last updated: November 9, 2026
+Last updated: November 10, 2026
 
 This policy explains what personal information this site collects, why, where it is kept and how to exercise your rights under Quebec's Act respecting the protection of personal information in the private sector.
 
@@ -27,7 +27,7 @@ Cloudflare and GitHub are companies based in the United States. Information they
 ## Retention
 
 - Messages and bookings: [DURATION TO CONFIRM] after our last exchange, then deleted.
-- Visit statistics: 25 months, then deleted once a year.
+- Visit statistics: kept with no time limit.
 - Technical logs: according to GitHub's and Cloudflare's policies.
 
 ## Who has access
