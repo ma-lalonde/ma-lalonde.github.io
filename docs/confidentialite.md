@@ -1,20 +1,19 @@
 # Politique de confidentialité
 
-Dernière mise à jour : 10 novembre 2026
+Dernière mise à jour : 16 novembre 2026
 
 Cette politique explique quels renseignements personnels ce site recueille, pourquoi, où ils sont conservés et comment exercer vos droits en vertu de la Loi sur la protection des renseignements personnels dans le secteur privé du Québec.
 
 ## Responsable
 
-Marc-Antoine Lalonde est responsable de la protection des renseignements personnels. Pour toute question ou demande : [COURRIEL À CONFIRMER].
+Marc-Antoine Lalonde est responsable de la protection des renseignements personnels. Pour toute question ou demande : <EmailLink user="marc" domain="ma-lalonde.dev" />.
 
 ## Ce que le site recueille
 
 | Quand | Renseignements | Pourquoi | Où |
 | --- | --- | --- | --- |
-| Vous envoyez le formulaire de contact | Nom, courriel, message | Répondre à votre demande | Mon logiciel de soutien (ERPNext Helpdesk), hébergé [LIEU À CONFIRMER] |
+| Vous m'écrivez | Nom, courriel, message | Répondre à votre demande | Ma messagerie, hébergée [LIEU À CONFIRMER] |
 | Vous prenez rendez-vous | Nom, courriel, moment choisi, notes ajoutées | Planifier l'appel | Mon calendrier Nextcloud, hébergé [LIEU À CONFIRMER] |
-| Vous naviguez sur le site | Adresse IP, informations techniques sur le navigateur | Bloquer les envois automatisés (Cloudflare Turnstile) | Cloudflare (États-Unis) |
 | Vous naviguez sur le site | Adresse IP, page demandée, dans les journaux du serveur | Livrer les pages et assurer la sécurité | GitHub Pages (États-Unis) |
 | Vous naviguez sur le site | Page visitée, site d'origine, navigateur, système, type d'appareil, langue, pays, région et ville (tirés de l'adresse IP, qui n'est pas gardée) | Compter les visites | Umami, sur mon propre serveur hébergé au Québec |
 

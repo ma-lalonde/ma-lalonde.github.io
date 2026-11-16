@@ -1,7 +1,7 @@
 import type { Theme, Router } from 'vitepress'
 import DefaultTheme, { VPButton } from 'vitepress/theme'
 import Layout from './Layout.vue'
-import ContactForm from './components/ContactForm.vue'
+import EmailLink from './components/EmailLink.vue'
 import { localeAliases } from './locale-map'
 import './style.css'
 
@@ -10,7 +10,7 @@ const theme: Theme = {
   Layout,
   enhanceApp({ app, router }: { app: any; router: Router }) {
     app.component('VPButton', VPButton)
-    app.component('ContactForm', ContactForm)
+    app.component('EmailLink', EmailLink)
 
     if (typeof window === 'undefined') return
     const previousHook = router.onBeforeRouteChange
