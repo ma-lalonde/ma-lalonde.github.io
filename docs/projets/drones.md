@@ -1,3 +1,7 @@
+---
+description: "VAMUdeS (2016-2018) : équipe de drones autonomes de l'Université de Sherbrooke, gagnante du concours AUVSI-SUAS trois années de suite."
+---
+
 # VAMUdeS (2016-2018)
 
 ## Résumé
@@ -10,7 +14,7 @@
 
 **Résultat** - On a gagné AUVSI-SUAS trois années de suite - 2016, 2017 et 2018 - avec une précision de géolocalisation brute vérifiée de 3 m dans les conditions de vol décrites plus haut.
 
-**Stack** - Avionique embarquée, design RF et antennes, réseau avec QoS, interface de station au sol en Python, géobarrières et algorithmes d'évitement d'obstacles.
+**Outils** - Avionique embarquée, design RF et antennes, réseau avec QoS, interface de station au sol en Python, géobarrières et algorithmes d'évitement d'obstacles.
 
 ## L'histoire complète
 

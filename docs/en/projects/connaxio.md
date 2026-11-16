@@ -1,3 +1,7 @@
+---
+description: "Connaxio (2021-2024): my first business, custom electronics, firmware and automation for small teams, labs and farms."
+---
+
 # Connaxio (2021-2024)
 
 ## Summary

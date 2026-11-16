@@ -1,3 +1,7 @@
+---
+description: "Quels renseignements personnels ce site et mes courriels de prospection recueillent, pourquoi, où ils sont conservés, pendant combien de temps et comment exercer vos droits."
+---
+
 # Politique de confidentialité
 
 Dernière mise à jour : 16 novembre 2026
@@ -8,12 +12,13 @@ Cette politique explique quels renseignements personnels ce site recueille, pour
 
 Marc-Antoine Lalonde est responsable de la protection des renseignements personnels. Pour toute question ou demande : <EmailLink user="marc" domain="ma-lalonde.dev" />.
 
-## Ce que le site recueille
+## Ce que je recueille
 
 | Quand | Renseignements | Pourquoi | Où |
 | --- | --- | --- | --- |
-| Vous m'écrivez | Nom, courriel, message | Répondre à votre demande | Ma messagerie, hébergée [LIEU À CONFIRMER] |
-| Vous prenez rendez-vous | Nom, courriel, moment choisi, notes ajoutées | Planifier l'appel | Mon calendrier Nextcloud, hébergé [LIEU À CONFIRMER] |
+| Vous m'écrivez | Nom, courriel, message | Répondre à votre demande | Ma messagerie, hébergée en Allemagne (mailbox.org) |
+| Vous prenez rendez-vous | Nom, courriel, moment choisi, notes ajoutées | Planifier l'appel | Mon calendrier Nextcloud, hébergé au Québec (Montréal ou Beauharnois) |
+| Vous avez reçu un courriel de ma part | Nom et titre si votre site les publie, courriel professionnel, nom et activité de l'entreprise | Vous proposer mes services; ces renseignements viennent du site de votre entreprise et du registre des entreprises du Québec | Ma base de prospection et mon ERPNext |
 | Vous naviguez sur le site | Adresse IP, page demandée, dans les journaux du serveur | Livrer les pages et assurer la sécurité | GitHub Pages (États-Unis) |
 | Vous naviguez sur le site | Page visitée, site d'origine, navigateur, système, type d'appareil, langue, pays, région et ville (tirés de l'adresse IP, qui n'est pas gardée) | Compter les visites | Umami, sur mon propre serveur hébergé au Québec |
 
@@ -23,11 +28,18 @@ Le site ne dépose aucun témoin (cookie) de suivi. Le comptage des visites (Uma
 
 Cloudflare et GitHub sont des entreprises établies aux États-Unis. Les renseignements qu'elles traitent pour ce site peuvent être conservés à l'extérieur du Québec. Les requêtes de comptage des visites transitent aussi par Cloudflare avant d'atteindre mon serveur.
 
+Ma messagerie est hébergée en Allemagne par mailbox.org : les courriels que vous m'envoyez ou que je vous envoie y sont conservés, à l'extérieur du Québec.
+
 ## Conservation
 
-- Messages et rendez-vous : [DURÉE À CONFIRMER] après notre dernier échange, puis détruits.
-- Statistiques de visites : conservées sans limite de durée.
+- Messages et rendez-vous : 2 ans après notre dernier échange, puis détruits.
+- Renseignements de prospection : 2 ans après le dernier échange, puis détruits. Si vous demandez à ne plus recevoir mes courriels, je ne garde que votre adresse, sur une liste de non-sollicitation, pour ne plus jamais vous écrire.
+- Statistiques de visites : 2 ans.
 - Journaux techniques : selon les politiques de GitHub et de Cloudflare.
+
+## Ne plus recevoir mes courriels
+
+Répondez « stop » à n'importe lequel de mes courriels. Votre adresse est alors versée à la liste de non-sollicitation, et je ne vous écris plus jamais.
 
 ## Qui y a accès
 

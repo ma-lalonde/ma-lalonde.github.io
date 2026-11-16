@@ -1,3 +1,7 @@
+---
+description: "SBQuantum and QMSat (2018-2020): the company's first single-board magnetometer, whose sensor line has been in orbit since March 2026."
+---
+
 # SBQuantum and QMSat (2018-2020)
 
 ## Summary

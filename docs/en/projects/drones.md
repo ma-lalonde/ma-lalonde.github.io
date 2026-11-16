@@ -1,3 +1,7 @@
+---
+description: "VAMUdeS (2016-2018): Université de Sherbrooke's autonomous drone team, winner of the AUVSI-SUAS competition three years in a row."
+---
+
 # VAMUdeS (2016-2018)
 
 ## Summary

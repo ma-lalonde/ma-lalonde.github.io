@@ -4,6 +4,7 @@ import { useRoute } from 'vitepress'
 import { computed } from 'vue'
 import { frToEn, enToFr } from './locale-map'
 import BilingualNotFound from './BilingualNotFound.vue'
+import ProofStrip from './components/ProofStrip.vue'
 
 const { Layout } = DefaultTheme
 const route = useRoute()
@@ -24,6 +25,9 @@ const target = computed(() => {
     </template>
     <template #home-hero-info-before>
       <img class="hero-photo" src="/images/profile.jpg" alt="Marc-Antoine Lalonde" />
+    </template>
+    <template #home-hero-after>
+      <ProofStrip />
     </template>
     <template #nav-bar-content-after>
       <a
