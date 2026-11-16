@@ -1,3 +1,7 @@
+---
+description: "SBQuantum et QMSat (2018-2020) : premier magnétomètre mono-carte de l'entreprise, dont la lignée du capteur est en orbite depuis mars 2026."
+---
+
 # SBQuantum et QMSat (2018-2020)
 
 ## Résumé
@@ -10,7 +14,7 @@
 
 **Résultat** - La V2 a été le premier magnétomètre mono-carte de l'entreprise, et la lignée du capteur [est entrée en orbite en mars 2026](https://sbquantum.com/sbquantum_space_pr/) à bord d'un satellite de Spire Global - le tout premier déploiement spatial de SBQuantum, dans le cadre du programme MagQuest Phase 4.
 
-**Stack** - Design de PCB à signaux mixtes, circuits RF et PLL, contrôle de lasers et de micro-ondes, physique des centres NV, rédaction de propositions techniques.
+**Outils** - Design de PCB à signaux mixtes, circuits RF et PLL, contrôle de lasers et de micro-ondes, physique des centres NV, rédaction de propositions techniques.
 
 ## L'histoire complète
 

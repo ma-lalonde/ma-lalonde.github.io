@@ -37,6 +37,10 @@ export default defineConfig({
   description: FR_DESCRIPTION,
   base: '/',
 
+  markdown: {
+    image: { lazyLoading: true }
+  },
+
   sitemap: {
     hostname: SITE_URL
   },
@@ -50,6 +54,7 @@ export default defineConfig({
         nav: [
           { text: 'Accueil', link: '/' },
           { text: 'Projets', link: '/projets/' },
+          { text: 'Subventions', link: '/subventions' },
           { text: 'Contact', link: '/contact' }
         ],
         footer: {
@@ -63,14 +68,9 @@ export default defineConfig({
                 { text: 'Catena (depuis 2026)', link: '/projets/catena' },
                 { text: 'Chocolat Infini (2024-2026)', link: '/projets/chocolate' },
                 { text: 'Connaxio (2021-2024)', link: '/projets/connaxio' },
-                { text: 'VAMUdeS (2016-2018)', link: '/projets/drones' }
-              ]
-            },
-            {
-              text: 'Mandats',
-              items: [
-                { text: 'Mandats', link: '/projets/mandats' },
-                { text: 'SBQuantum et QMSat (2018-2020)', link: '/projets/sbquantum-qmsat' }
+                { text: 'SBQuantum et QMSat (2018-2020)', link: '/projets/sbquantum-qmsat' },
+                { text: 'VAMUdeS (2016-2018)', link: '/projets/drones' },
+                { text: 'Autres mandats', link: '/projets/mandats' }
               ]
             }
           ]
@@ -99,6 +99,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Projects', link: '/en/projects/' },
+          { text: 'Grants', link: '/en/grants' },
           { text: 'Contact', link: '/en/contact' }
         ],
         footer: {
@@ -112,14 +113,9 @@ export default defineConfig({
                 { text: 'Catena (since 2026)', link: '/en/projects/catena' },
                 { text: 'Chocolat Infini (2024-2026)', link: '/en/projects/chocolate' },
                 { text: 'Connaxio (2021-2024)', link: '/en/projects/connaxio' },
-                { text: 'VAMUdeS (2016-2018)', link: '/en/projects/drones' }
-              ]
-            },
-            {
-              text: 'Work',
-              items: [
-                { text: 'Work', link: '/en/projects/work' },
-                { text: 'SBQuantum and QMSat (2018-2020)', link: '/en/projects/sbquantum-qmsat' }
+                { text: 'SBQuantum and QMSat (2018-2020)', link: '/en/projects/sbquantum-qmsat' },
+                { text: 'VAMUdeS (2016-2018)', link: '/en/projects/drones' },
+                { text: 'Other work', link: '/en/projects/work' }
               ]
             }
           ]

@@ -1,3 +1,7 @@
+---
+description: "Connaxio (2021-2024) : ma première entreprise, de l'électronique sur mesure, du microprogramme et de l'automatisation pour de petites équipes, laboratoires et fermes."
+---
+
 # Connaxio (2021-2024)
 
 ## Résumé
@@ -10,7 +14,7 @@
 
 **Résultat** - J'ai pris des mandats payants en automatisation, réseautique et électronique sur mesure pour une poignée de clients récurrents, j'ai publié plusieurs designs de circuits ouverts par-dessus, et j'ai bâti à l'interne une vraie capacité de fabrication à faible volume.
 
-**Stack** - KiCad, LitePlacer avec OpenPnP, soudure par refusion, vision par ordinateur, impression 3D.
+**Outils** - KiCad, LitePlacer avec OpenPnP, soudure par refusion, vision par ordinateur, impression 3D.
 
 ## L'histoire complète
 
