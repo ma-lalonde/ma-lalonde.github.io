@@ -1,7 +1,6 @@
 import type { Theme, Router } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme, { VPButton } from 'vitepress/theme'
 import Layout from './Layout.vue'
-import CalInline from './components/CalInline.vue'
 import ContactForm from './components/ContactForm.vue'
 import { localeAliases } from './locale-map'
 import './style.css'
@@ -10,7 +9,7 @@ const theme: Theme = {
   extends: DefaultTheme,
   Layout,
   enhanceApp({ app, router }: { app: any; router: Router }) {
-    app.component('CalInline', CalInline)
+    app.component('VPButton', VPButton)
     app.component('ContactForm', ContactForm)
 
     if (typeof window === 'undefined') return

@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { frToEn, enToFr } from './theme/locale-map.js'
 
 const SITE_URL = 'https://ma-lalonde.dev'
@@ -8,6 +8,29 @@ const FR_DESCRIPTION =
   "Modernisation, automatisation et optimisation pour PME : du temps et de l'argent sauvés, plus de productivité et de rendement, des données sécurisées et souveraines."
 const EN_DESCRIPTION =
   'Modernization, automation and optimization for small business: time and money saved, higher productivity and yield, data kept secure and under your control.'
+
+// Self-hosted Umami visit counting, wired at build time. The tag is emitted
+// only when both variables are set. It counts ma-lalonde.dev only
+// (data-domains), skips browsers that ask not to be tracked and drops the
+// query string.
+const UMAMI_SCRIPT_URL = process.env.UMAMI_SCRIPT_URL
+const UMAMI_WEBSITE_ID = process.env.UMAMI_WEBSITE_ID
+const umamiHead: HeadConfig[] =
+  UMAMI_SCRIPT_URL && UMAMI_WEBSITE_ID
+    ? [
+        [
+          'script',
+          {
+            defer: '',
+            src: UMAMI_SCRIPT_URL,
+            'data-website-id': UMAMI_WEBSITE_ID,
+            'data-domains': 'ma-lalonde.dev',
+            'data-do-not-track': 'true',
+            'data-exclude-search': 'true'
+          }
+        ]
+      ]
+    : []
 
 export default defineConfig({
   title: 'Marc-Antoine Lalonde',
@@ -29,16 +52,25 @@ export default defineConfig({
           { text: 'Projets', link: '/projets/' },
           { text: 'Contact', link: '/contact' }
         ],
+        footer: {
+          message: '<a href="/confidentialite">Politique de confidentialité</a>'
+        },
         sidebar: {
           '/projets/': [
             {
               text: 'Projets',
               items: [
-                { text: 'Catena', link: '/projets/catena' },
-                { text: 'Chocolat Infini', link: '/projets/chocolate' },
-                { text: 'Connaxio', link: '/projets/connaxio' },
-                { text: 'Magnétomètre quantique', link: '/projets/quantum-magnetometer' },
-                { text: 'VAMUdeS', link: '/projets/drones' }
+                { text: 'Catena (depuis 2026)', link: '/projets/catena' },
+                { text: 'Chocolat Infini (2024-2026)', link: '/projets/chocolate' },
+                { text: 'Connaxio (2021-2024)', link: '/projets/connaxio' },
+                { text: 'VAMUdeS (2016-2018)', link: '/projets/drones' }
+              ]
+            },
+            {
+              text: 'Mandats',
+              items: [
+                { text: 'Mandats', link: '/projets/mandats' },
+                { text: 'SBQuantum et QMSat (2018-2020)', link: '/projets/sbquantum-qmsat' }
               ]
             }
           ]
@@ -69,16 +101,25 @@ export default defineConfig({
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Contact', link: '/en/contact' }
         ],
+        footer: {
+          message: '<a href="/en/privacy">Privacy policy</a>'
+        },
         sidebar: {
           '/en/projects/': [
             {
               text: 'Projects',
               items: [
-                { text: 'Catena', link: '/en/projects/catena' },
-                { text: 'Chocolat Infini', link: '/en/projects/chocolate' },
-                { text: 'Connaxio', link: '/en/projects/connaxio' },
-                { text: 'Quantum Magnetometer', link: '/en/projects/quantum-magnetometer' },
-                { text: 'VAMUdeS', link: '/en/projects/drones' }
+                { text: 'Catena (since 2026)', link: '/en/projects/catena' },
+                { text: 'Chocolat Infini (2024-2026)', link: '/en/projects/chocolate' },
+                { text: 'Connaxio (2021-2024)', link: '/en/projects/connaxio' },
+                { text: 'VAMUdeS (2016-2018)', link: '/en/projects/drones' }
+              ]
+            },
+            {
+              text: 'Work',
+              items: [
+                { text: 'Work', link: '/en/projects/work' },
+                { text: 'SBQuantum and QMSat (2018-2020)', link: '/en/projects/sbquantum-qmsat' }
               ]
             }
           ]
@@ -93,15 +134,6 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
-      }
-    ],
     [
       'script',
       {
@@ -115,7 +147,8 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: OG_IMAGE }],
     ['meta', { property: 'og:image:alt', content: 'Marc-Antoine Lalonde' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: OG_IMAGE }]
+    ['meta', { name: 'twitter:image', content: OG_IMAGE }],
+    ...umamiHead
   ],
 
   transformHead({ pageData }) {

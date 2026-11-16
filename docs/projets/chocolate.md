@@ -1,4 +1,4 @@
-# Chocolat Infini
+# Chocolat Infini (2024-2026)
 
 ## Résumé
 

@@ -1,9 +1,5 @@
 # Projets
 
-Une sélection de projets que j'ai menés ou construits, avec le contexte de ce qu'a vraiment impliqué le travail. Choisissez-en un dans la barre latérale pour la version complète.
+Je programme depuis 2013, je construis des systèmes robotisés depuis 2015 et je fais rouler mes propres entreprises sur des logiciels auto-hébergés depuis 2021. Logiciel, électronique, microprogramme, instrumentation et production automatisée : je couvre autant l'automatisation purement logicielle que les systèmes intégrés.
 
-- **[Catena](/projets/catena)** - logiciels d'affaires auto-hébergés pour PME, bâtis comme un produit et testés automatiquement.
-- **[Chocolat Infini](/projets/chocolate)** - chocolaterie bean-to-bar montée de zéro avec une ligne de production entièrement instrumentée. Médaille d'or au Craft Chocolat Challenge 2025.
-- **[Connaxio](/projets/connaxio)** - consultation en électronique et fabrication de circuits imprimés à l'interne, 2021-2024.
-- **[Magnétomètre quantique](/projets/quantum-magnetometer)** - capteur à centres NV de diamant miniaturisé d'un montage de laboratoire à un seul PCB, avec SBQuantum et l'Université de Sherbrooke.
-- **[VAMUdeS](/projets/drones)** - système de surveillance aérienne par drone autonome, triple gagnant international d'AUVSI-SUAS.
+Choisissez un projet ou un client dans la barre latérale pour la version complète.

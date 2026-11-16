@@ -1,4 +1,4 @@
-# Catena
+# Catena (since 2026)
 
 ## Summary
 
