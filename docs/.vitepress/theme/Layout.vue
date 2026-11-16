@@ -73,8 +73,8 @@ const target = computed(() => {
 
 .hero-photo {
   display: block;
-  width: 160px;
-  height: 160px;
+  width: 208px;
+  height: 208px;
   margin: 0 auto 24px;
   border-radius: 50%;
   object-fit: cover;
