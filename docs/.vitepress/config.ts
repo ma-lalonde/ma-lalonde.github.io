@@ -134,14 +134,6 @@ export default defineConfig({
   },
 
   head: [
-    [
-      'script',
-      {
-        src: 'https://challenges.cloudflare.com/turnstile/v0/api.js',
-        async: '',
-        defer: ''
-      }
-    ],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Marc-Antoine Lalonde' }],
     ['meta', { property: 'og:image', content: OG_IMAGE }],
