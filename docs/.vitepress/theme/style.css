@@ -92,6 +92,10 @@
   }
 }
 
+.vp-doc .booking {
+  text-align: center;
+}
+
 .VPNavBarTranslations,
 .VPNavScreenTranslations {
   display: none !important;

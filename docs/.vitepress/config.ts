@@ -50,7 +50,6 @@ export default defineConfig({
         nav: [
           { text: 'Accueil', link: '/' },
           { text: 'Projets', link: '/projets/' },
-          { text: 'Subventions', link: '/subventions' },
           { text: 'Contact', link: '/contact' }
         ],
         footer: {

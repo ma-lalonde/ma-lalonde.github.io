@@ -4,26 +4,15 @@ The work I have done for clients.
 
 ## Human Garage (2023-2024)
 
-- 
-- 
-- 
+- Migrate member data from Mighty Networks to Circle
+- Sync member data between the social platform and the CRM
+- Automate badge distribution and progress saving across the fitness programs
 
-## West Coast Fungi (2023-2024)
+## West Coast Fungi (2023)
 
-- 
-- 
-- 
+- Design and deploy a humidity and CO2 instrumentation, control and monitoring system for a mushroom production greenhouse
 
 ## Revolutionnez.ca (2023-2024)
 
-- 
-- 
-- 
-
-## SBQuantum and QMSat (2018-2020)
-
-- Contributed to the V2 single-board PCB of [SBQuantum](https://sbquantum.com/)'s diamond quantum magnetometer, the company's first single-board magnetometer.
-- Led project management and the Phase-Locked Loop (PLL) of the space-grade version, a capstone project for Université de Sherbrooke's CubeSat.
-- Led the writing of the [MagQuest](https://www.magquest.com) Phase 2 and 3 proposals and built V3 test benches; the sensor lineage [has been in orbit since March 2026](https://sbquantum.com/sbquantum_space_pr/).
-
-[The long story](/en/projects/sbquantum-qmsat)
+- Make the website and a video compression application easy to deploy and update for non-technical users
+- Configure and secure access to IT resources following best practices

@@ -9,7 +9,7 @@ const props = withDefaults(
   }>(),
   {
     locale: 'en',
-    endpoint: 'https://[ERPNEXT HOST]/api/method/website_contact',
+    endpoint: 'https://desk.ma-lalonde.dev/api/method/website_contact',
     turnstileSiteKey: '0x4AAAAAAChjL3Wc5kWV0cXZ'
   }
 )
@@ -100,6 +100,7 @@ async function submit(event: Event) {
   flex-direction: column;
   gap: 1.5rem;
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .contact-form__group {

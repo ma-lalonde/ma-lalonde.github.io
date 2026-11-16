@@ -1,8 +1,10 @@
 # Contact
 
-Pick a time that works for a 30-minute discovery call and we'll talk through what you're trying to do. If booking a call isn't the right fit, [there's a short form further down](#write).
+Pick a time that works for you for a 30-minute discovery call, and we'll talk about what you want to accomplish. You can also write to me using the form further down this page.
 
-<VPButton tag="a" size="big" theme="brand" text="Pick a time" href="[NEXTCLOUD BOOKING LINK]" />
+<div class="booking">
+  <VPButton tag="a" size="big" theme="brand" text="Schedule a meeting" href="https://nextcloud.ma-lalonde.dev/apps/calendar/appointment/KYDBfebmYHg7" />
+</div>
 
 ## Prefer to write? {#write}
 

@@ -29,7 +29,7 @@ features:
 1. **Appel de découverte** - 30 minutes, gratuit. Vous me racontez une semaine normale et ce qui se refait à la main.
 2. **Rétroaction et propositions de projets** - par écrit, gratuit. Ce qui vaut la peine d'être fait, ce que ça enlève comme travail et à peu près ce que ça demande.
 3. **Étude de faisabilité, diagnostic et planification** - une spécification et un plan de test en langage clair, qui vous appartiennent.
-4. **Implantation** - par itérations, avec les tests qui roulent devant vous à chaque jalon.
-5. **Soutien** - sauvegardes vérifiées, mises à jour appliquées, restaurations exercées. Optionnel et annulable.
+4. **Implantation** - par itérations, testé par moi et approuvé par vous, étape par étape.
+5. **Soutien** - mises à jour, sauvegardes, gestion des vulnérabilités, intégration/livraison continues.
 
-Quand c'est possible, chaque étape est jumelée à un programme de subvention pour en réduire le coût.
+Vos projets pourraient être admissibles à certaines subventions; on en discutera!

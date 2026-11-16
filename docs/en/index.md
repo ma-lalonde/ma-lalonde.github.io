@@ -29,7 +29,7 @@ features:
 1. **Discovery call** - 30 minutes, free. You walk me through a normal week and what gets redone by hand.
 2. **Feedback and project proposals** - written, free. What is worth doing, the work it removes, and roughly what it takes.
 3. **Feasibility study, diagnostic and planning** - a specification and a test plan in plain language, and they are yours.
-4. **Implementation** - in iterations, with the tests running in front of you at each milestone.
-5. **Support** - backups verified, updates applied, restores drilled. Optional and cancellable.
+4. **Implementation** - in iterations, tested by me and approved by you, step by step.
+5. **Support** - updates, backups, vulnerability management, continuous integration and delivery.
 
-Where possible, each step is matched with a grant program to lower its cost.
+Your projects may qualify for some grants; let's talk about it!
