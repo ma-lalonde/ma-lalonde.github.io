@@ -1,20 +1,19 @@
 # Privacy policy
 
-Last updated: November 10, 2026
+Last updated: November 16, 2026
 
 This policy explains what personal information this site collects, why, where it is kept and how to exercise your rights under Quebec's Act respecting the protection of personal information in the private sector.
 
 ## Person in charge
 
-Marc-Antoine Lalonde is the person in charge of the protection of personal information. For any question or request: [EMAIL TO CONFIRM].
+Marc-Antoine Lalonde is the person in charge of the protection of personal information. For any question or request: <EmailLink user="marc" domain="ma-lalonde.dev" />.
 
 ## What the site collects
 
 | When | Information | Why | Where |
 | --- | --- | --- | --- |
-| You send the contact form | Name, email, message | Answer your request | My support software (ERPNext Helpdesk), hosted [LOCATION TO CONFIRM] |
+| You write to me | Name, email, message | Answer your request | My email, hosted [LOCATION TO CONFIRM] |
 | You book a call | Name, email, chosen time, notes you add | Schedule the call | My Nextcloud calendar, hosted [LOCATION TO CONFIRM] |
-| You browse the site | IP address, technical browser information | Block automated submissions (Cloudflare Turnstile) | Cloudflare (United States) |
 | You browse the site | IP address, requested page, in server logs | Serve pages and keep the site secure | GitHub Pages (United States) |
 | You browse the site | Page visited, referring site, browser, system, device type, language, country, region and city (from the IP address, which is not kept) | Count visits | Umami, on my own server hosted in Quebec |
 
