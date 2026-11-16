@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 
 const props = withDefaults(
   defineProps<{
@@ -15,6 +15,42 @@ const props = withDefaults(
 )
 
 const state = ref<'idle' | 'sending' | 'sent' | 'error'>('idle')
+const widget = ref<HTMLElement>()
+let widgetId: string | undefined
+
+// Explicit rendering: the site changes pages without a reload, so the
+// widget is drawn when the form mounts, not when the script first loads.
+const TURNSTILE_SRC = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
+
+function loadTurnstile(): Promise<any> {
+  const w = window as any
+  if (w.turnstile) return Promise.resolve(w.turnstile)
+  return new Promise((resolve, reject) => {
+    let script = document.querySelector<HTMLScriptElement>(`script[src="${TURNSTILE_SRC}"]`)
+    if (!script) {
+      script = document.createElement('script')
+      script.src = TURNSTILE_SRC
+      document.head.appendChild(script)
+    }
+    script.addEventListener('load', () => resolve(w.turnstile))
+    script.addEventListener('error', reject)
+  })
+}
+
+onMounted(async () => {
+  try {
+    const turnstile = await loadTurnstile()
+    if (widget.value) {
+      widgetId = turnstile.render(widget.value, { sitekey: props.turnstileSiteKey, theme: 'auto' })
+    }
+  } catch {
+    state.value = 'error'
+  }
+})
+
+onBeforeUnmount(() => {
+  if (widgetId) (window as any).turnstile?.remove(widgetId)
+})
 
 const strings = computed(() => {
   if (props.locale === 'fr') {
@@ -55,7 +91,7 @@ async function submit(event: Event) {
     state.value = 'error'
   } finally {
     // a Turnstile token is single-use
-    ;(window as any).turnstile?.reset()
+    if (widgetId) (window as any).turnstile?.reset(widgetId)
   }
 }
 </script>
@@ -77,11 +113,7 @@ async function submit(event: Event) {
       <textarea id="message" name="message" rows="6" maxlength="5000" required></textarea>
     </div>
 
-    <div
-      class="cf-turnstile"
-      :data-sitekey="turnstileSiteKey"
-      data-theme="auto"
-    ></div>
+    <div ref="widget"></div>
 
     <button type="submit" :disabled="state === 'sending'">
       {{ state === 'sending' ? strings.sending : strings.submit }}
