@@ -18,4 +18,3 @@ Write to me at <EmailLink user="marc" domain="ma-lalonde.dev" />.
 
 </div>
 
-What I do with your information: [privacy policy](/en/privacy).

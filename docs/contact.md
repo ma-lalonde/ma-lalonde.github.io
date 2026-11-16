@@ -17,5 +17,3 @@ Parlez-moi de votre entreprise. Choisissez un moment qui vous convient pour un a
 Écrivez-moi à <EmailLink user="marc" domain="ma-lalonde.dev" />.
 
 </div>
-
-Ce que je fais de vos renseignements : [politique de confidentialité](/confidentialite).
