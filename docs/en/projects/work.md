@@ -2,7 +2,7 @@
 description: "Client work: about 30,000 members migrated to Circle for Human Garage, an instrumented mushroom greenhouse, simpler deployment for Revolutionnez.ca."
 ---
 
-# Work
+# Other work
 
 The work I have done for clients.
 

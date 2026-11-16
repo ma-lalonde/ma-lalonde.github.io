@@ -3,7 +3,6 @@ export const frToEn: Record<string, string> = {
   '/contact': '/en/contact',
   '/confidentialite': '/en/privacy',
   '/subventions': '/en/grants',
-  '/diagnostic': '/en/diagnostic',
   '/projets/': '/en/projects/',
   '/projets/catena': '/en/projects/catena',
   '/projets/chocolate': '/en/projects/chocolate',
