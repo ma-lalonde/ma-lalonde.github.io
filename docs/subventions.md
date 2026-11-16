@@ -23,7 +23,7 @@ ESSOR n'est ouvert qu'aux entreprises de 250 employés ou moins qui font au moin
 
 Pour les demandes déposées depuis le 13 mars 2026, ESSOR ne priorise plus plusieurs secteurs, dont la construction (sauf les projets de productivité), l'agriculture, les services professionnels, scientifiques et techniques, la finance et l'immobilier, l'hébergement et la restauration, et la réparation et les autres services. Si votre entreprise est dans l'un d'eux, dites-le-moi d'emblée : on regardera les autres programmes.
 
-Le volet 1B paie le diagnostic et le plan; le volet 1C paie la mise en oeuvre de ce plan, dans les 24 mois.
+Le volet 1B paie le diagnostic et le plan; le volet 1C paie la mise en oeuvre de ce plan, dans les 24 mois. Le détail du diagnostic, de ses livrables, de son coût et de ses étapes : [Diagnostic numérique ESSOR](/diagnostic).
 
 ## L'ordre compte
 

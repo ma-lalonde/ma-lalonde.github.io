@@ -55,6 +55,7 @@ export default defineConfig({
           { text: 'Accueil', link: '/' },
           { text: 'Projets', link: '/projets/' },
           { text: 'Subventions', link: '/subventions' },
+          { text: 'Diagnostic', link: '/diagnostic' },
           { text: 'Contact', link: '/contact' }
         ],
         footer: {
@@ -105,6 +106,7 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Grants', link: '/en/grants' },
+          { text: 'Diagnostic', link: '/en/diagnostic' },
           { text: 'Contact', link: '/en/contact' }
         ],
         footer: {

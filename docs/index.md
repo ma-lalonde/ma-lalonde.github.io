@@ -47,7 +47,7 @@ features:
 
 1. **Pistes écrites** - gratuit. Décrivez-moi en 3 lignes ce qui se refait à la main; je vous réponds par écrit avec 2 ou 3 pistes concrètes : ce qui vaut la peine d'être fait, le travail que ça enlève et à peu près ce que ça demande.
 2. **Appel de découverte** - 30 minutes, gratuit. Vous me racontez une semaine normale et ce qui se refait à la main.
-3. **Étude de faisabilité, diagnostic et planification** - une spécification et un plan de test en langage clair, qui vous appartiennent.
+3. **Étude de faisabilité, [diagnostic](/diagnostic) et planification** - une spécification et un plan de test en langage clair, qui vous appartiennent.
 4. **Implantation** - par itérations, testé par moi et approuvé par vous, étape par étape.
 5. **Soutien** - mises à jour, sauvegardes, gestion des vulnérabilités, intégration/livraison continues.
 

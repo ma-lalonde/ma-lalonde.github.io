@@ -47,7 +47,7 @@ features:
 
 1. **Written ideas** - free. Describe in 3 lines what gets redone by hand; I reply in writing with 2 or 3 concrete ideas: what is worth doing, the work it removes and roughly what it takes.
 2. **Discovery call** - 30 minutes, free. You walk me through a normal week and what gets redone by hand.
-3. **Feasibility study, diagnostic and planning** - a specification and a test plan in plain language, and they are yours.
+3. **Feasibility study, [diagnostic](/en/diagnostic) and planning** - a specification and a test plan in plain language, and they are yours.
 4. **Implementation** - in iterations, tested by me and approved by you, step by step.
 5. **Support** - updates, backups, vulnerability management, continuous integration and delivery.
 

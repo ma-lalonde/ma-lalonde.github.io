@@ -18,7 +18,7 @@ Marc-Antoine Lalonde est responsable de la protection des renseignements personn
 | --- | --- | --- | --- |
 | Vous m'écrivez | Nom, courriel, message | Répondre à votre demande | Ma messagerie, hébergée en Allemagne (mailbox.org) |
 | Vous prenez rendez-vous | Nom, courriel, moment choisi, notes ajoutées | Planifier l'appel | Mon calendrier Nextcloud, hébergé au Québec (Montréal ou Beauharnois) |
-| Vous avez reçu un courriel de ma part | Nom et titre si votre site les publie, courriel professionnel, nom et activité de l'entreprise | Vous proposer mes services; ces renseignements viennent du site de votre entreprise et du registre des entreprises du Québec | Ma base de prospection et mon ERPNext |
+| Vous avez reçu un courriel de ma part | Nom et titre si votre site les publie, courriel professionnel, nom et activité de l'entreprise | Vous proposer mes services; ces renseignements viennent du site de votre entreprise et du registre des entreprises du Québec | Ma base de prospection et mon ERPNext, hébergés au Québec (Montréal ou Beauharnois) |
 | Vous naviguez sur le site | Adresse IP, page demandée, dans les journaux du serveur | Livrer les pages et assurer la sécurité | GitHub Pages (États-Unis) |
 | Vous naviguez sur le site | Page visitée, site d'origine, navigateur, système, type d'appareil, langue, pays, région et ville (tirés de l'adresse IP, qui n'est pas gardée) | Compter les visites | Umami, sur mon propre serveur hébergé au Québec |
 

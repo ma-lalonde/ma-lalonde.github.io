@@ -23,7 +23,7 @@ ESSOR is open only to companies with 250 employees or fewer and revenue of at le
 
 For applications filed since March 13, 2026, ESSOR no longer prioritizes several sectors, including construction (except productivity projects), agriculture, professional, scientific and technical services, finance and real estate, accommodation and food services, and repair and other services. If your business is in one of them, tell me up front: we will look at the other programs.
 
-Stream 1B pays for the diagnostic and the plan; stream 1C pays for implementing that plan, within 24 months.
+Stream 1B pays for the diagnostic and the plan; stream 1C pays for implementing that plan, within 24 months. The details of the diagnostic, its deliverables, its cost and its steps: [ESSOR digital diagnostic](/en/diagnostic).
 
 ## Order matters
 

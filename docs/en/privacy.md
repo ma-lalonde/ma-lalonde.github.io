@@ -18,7 +18,7 @@ Marc-Antoine Lalonde is the person in charge of the protection of personal infor
 | --- | --- | --- | --- |
 | You write to me | Name, email, message | Answer your request | My email, hosted in Germany (mailbox.org) |
 | You book a call | Name, email, chosen time, notes you add | Schedule the call | My Nextcloud calendar, hosted in Quebec (Montreal or Beauharnois) |
-| You received an email from me | Name and title if your website publishes them, business email, company name and activity | Offer you my services; this information comes from your company's website and the Quebec enterprise register | My prospecting database and my ERPNext |
+| You received an email from me | Name and title if your website publishes them, business email, company name and activity | Offer you my services; this information comes from your company's website and the Quebec enterprise register | My prospecting database and my ERPNext, hosted in Quebec (Montreal or Beauharnois) |
 | You browse the site | IP address, requested page, in server logs | Serve pages and keep the site secure | GitHub Pages (United States) |
 | You browse the site | Page visited, referring site, browser, system, device type, language, country, region and city (from the IP address, which is not kept) | Count visits | Umami, on my own server hosted in Quebec |
 
