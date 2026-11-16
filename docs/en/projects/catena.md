@@ -1,12 +1,6 @@
----
-description: "Catena: a platform of business applications your small business owns, with backups proven by real restores, one sign-in and Law 25 obligations implemented."
----
-
 # Catena (since 2026)
 
 ## Summary
-
-**What it gives a small business** - One platform you own: backups proven by real restores, one sign-in for all your applications, and Quebec's Law 25 obligations implemented.
 
 **Context** - I have been developing applications since 2013 and running my own businesses on self-hosted infrastructure since 2021. Catena is that experience turned into a product.
 
@@ -16,7 +10,7 @@ description: "Catena: a platform of business applications your small business ow
 
 **Outcome** - A bare server becomes a running suite of business applications, with sign-in, backups, monitoring and restore built in from the start rather than bolted on afterward. Every claim on the product site traces back to an automated scenario that ran and passed. That rule is enforced by the build, not by good intentions.
 
-I am the founder of Catena; I say so, and I recommend it only if it suits your project.
+**Stack** - Ansible, Docker Swarm, Traefik, Keycloak with oauth2-proxy, Portainer, PostgreSQL, restic to S3 with Object Lock, Tailscale, Cloudflared, a Go admin panel, GitHub CI/CD, and 20+ curated applications covering ERP, CRM, chat, documents, invoicing, scheduling and workflow automation.
 
 ## The long story
 
@@ -29,5 +23,3 @@ The compliance side is built the same way. Backups land on storage the client ow
 Two pieces are deliberately public on GitHub: the installer and the application catalog. Anyone can read what will run on their server before it runs.
 
 More at [catena.run](https://catena.run).
-
-**Stack** - Ansible, Docker Swarm, Traefik, Keycloak with oauth2-proxy, Portainer, PostgreSQL, restic to S3 with Object Lock, Tailscale, Cloudflared, a Go admin panel, GitHub CI/CD, and a catalog of curated applications covering ERP, CRM, chat, documents, invoicing, scheduling and workflow automation.

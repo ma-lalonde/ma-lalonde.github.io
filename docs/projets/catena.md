@@ -1,12 +1,6 @@
----
-description: "Catena : une plateforme d'applications d'affaires que votre PME possède, avec des sauvegardes éprouvées par de vraies restaurations, une seule connexion et la Loi 25 mise en oeuvre."
----
-
 # Catena (depuis 2026)
 
 ## Résumé
-
-**Ce que ça donne à une PME** - Une plateforme unique, que vous possédez : des sauvegardes éprouvées par de vraies restaurations, une seule connexion pour toutes vos applications, et les obligations de la Loi 25 mises en oeuvre.
 
 **Contexte** - Je développe des applications depuis 2013 et je fais rouler mes propres entreprises sur de l'infrastructure auto-hébergée depuis 2021. Catena, c'est cette expérience transformée en produit.
 
@@ -16,7 +10,7 @@ description: "Catena : une plateforme d'applications d'affaires que votre PME po
 
 **Résultat** - Un serveur vierge devient une suite d'applications d'affaires en marche, avec authentification, sauvegardes, surveillance et restauration intégrées dès le départ plutôt qu'ajoutées après coup. Chaque affirmation sur le site du produit remonte à un scénario automatisé qui a roulé et qui a passé. C'est la compilation qui applique cette règle, pas la bonne volonté.
 
-Je suis le fondateur de Catena; je le déclare, et je ne le recommande que s'il convient à votre projet.
+**Stack** - Ansible, Docker Swarm, Traefik, Keycloak avec oauth2-proxy, Portainer, PostgreSQL, restic vers S3 avec verrouillage d'objets, Tailscale, Cloudflared, un panneau d'administration en Go, GitHub CI/CD, et plus de 20 applications sélectionnées couvrant ERP, CRM, clavardage, documents, facturation, prise de rendez-vous et automatisation de flux de travail.
 
 ## L'histoire complète
 
@@ -29,5 +23,3 @@ Le volet conformité est bâti de la même façon. Les sauvegardes aboutissent s
 Deux morceaux sont volontairement publics sur GitHub : l'installateur et le catalogue d'applications. N'importe qui peut lire ce qui va rouler sur son serveur avant que ça roule.
 
 Plus de détails sur [catena.run](https://catena.run).
-
-**Outils** - Ansible, Docker Swarm, Traefik, Keycloak avec oauth2-proxy, Portainer, PostgreSQL, restic vers S3 avec verrouillage d'objets, Tailscale, Cloudflared, un panneau d'administration en Go, GitHub CI/CD, et un catalogue d'applications sélectionnées couvrant ERP, CRM, clavardage, documents, facturation, prise de rendez-vous et automatisation de flux de travail.
