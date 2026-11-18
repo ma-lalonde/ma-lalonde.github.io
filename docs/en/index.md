@@ -6,7 +6,7 @@ titleTemplate: false
 hero:
   name: "Marc-Antoine Lalonde, B. Eng."
   text: "Automation and systems integration consultant"
-  tagline: "Modernization | Automation | Optimization | Data security | Digital sovereignty"
+  tagline: "Digital transformation | Systems integration | Automation | Data security | Digital sovereignty"
   actions:
     - theme: brand
       text: Tell me about your business
@@ -16,14 +16,14 @@ hero:
       link: /en/projects/
 
 features:
-  - title: "Modernize and automate"
-    details: "Move off paper and spreadsheets, connect and sync your software, and remove the retyping and the manual steps that hold up getting things done."
+  - title: "Automate"
+    details: "Move off paper and spreadsheets, connect and sync your software, and eliminate copy-pasting and manual steps."
   - title: "Optimize"
-    details: "Measure, instrument and tune your processes, from the office to the production line, to save time and materials and improve your products and services."
+    details: "Measure, instrument and tune your processes, from the office to the production line, to eliminate delays, improve yields and raise the quality of your services."
   - title: "Secure your data"
-    details: "Backups proven by real restores, centralized access management procedures, and Quebec's Law 25 obligations implemented."
-  - title: "Host your data and applications"
-    details: "When you own your data and software, you have the flexibility to adapt them to your needs and to migrate at any time."
+    details: "Protect your data and your customers' data with proven backup methods, centralized access management procedures and rigorous compliance with Quebec's Law 25 and PIPEDA."
+  - title: "Self-host your data and applications"
+    details: "Reduce your dependence and your costs with open-source or custom software tailored to your needs, hosted on the infrastructure of your choice."
 ---
 
 ## How we work together
