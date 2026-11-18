@@ -6,7 +6,7 @@ titleTemplate: false
 hero:
   name: "Marc-Antoine Lalonde, B. Ing."
   text: "Consultant en automatisation et intégration de systèmes"
-  tagline: "Modernisation | Automatisation | Optimisation | Sécurité des données | Souveraineté numérique"
+  tagline: "Transformation numérique | Intégration de systèmes | Automatisation | Sécurité des données | Souveraineté numérique"
   actions:
     - theme: brand
       text: Parlez-moi de votre entreprise
@@ -16,14 +16,14 @@ hero:
       link: /projets/
 
 features:
-  - title: "Moderniser et automatiser"
-    details: "Sortir du papier et des tableurs, brancher et synchroniser vos logiciels entre eux, éliminer la ressaisie et les étapes manuelles qui retardent l'accomplissement des tâches."
-  - title: "Optimiser"
-    details: "Mesurer, instrumenter et ajuster vos procédés, du bureau à la ligne de production, pour économiser du temps et des matériaux et améliorer vos produits et services."
-  - title: "Sécuriser vos données"
-    details: "Des sauvegardes prouvées par de vraies restaurations, des procédures de gestion d'accès centralisées et les obligations de la Loi 25 mises en oeuvre."
-  - title: "Héberger vos données et applications"
-    details: "Lorsque vous possédez vos données et logiciels, vous avez la flexibilité de les ajuster à vos besoins et de migrer n'importe quand."
+  - title: "Automatisez"
+    details: "Sortez du papier et des tableurs, branchez et synchronisez vos logiciels entre eux, éliminez le copier-coller et les étapes manuelles."
+  - title: "Optimisez"
+    details: "Mesurez, instrumentez et ajustez vos procédés, du bureau à la ligne de production, pour éliminer les retards, améliorer les rendements et augmenter la qualité de vos services."
+  - title: "Sécurisez vos données"
+    details: "Protégez vos données et celles de vos clients avec des méthodes de sauvegarde éprouvées, des procédures de gestion d'accès centralisées et une application rigoureuse de la Loi 25 et de la LPRDE."
+  - title: "Auto-hébergez vos données et applications"
+    details: "Réduisez votre dépendance et vos coûts grâce à des logiciels libres ou personnalisés selon vos besoins, hébergés sur l'infrastructure de votre choix."
 ---
 
 ## Comment on travaille ensemble
