@@ -12,15 +12,9 @@ Several programs can pay part of your project, including my fees. I tell you whi
 
 ## Which programs might cover your project?
 
-Answer the questions below: the tool rules out the programs whose size, industry, territory or project-type criteria do not match your business. Each program is a grant, a loan you repay or a tax credit, and the tool says which. Amounts and conditions change, so check them with the administrator before you commit.
+Every program is listed below. Answer the questions to rule out the programs whose size, industry, territory or project-type criteria do not match your business; ruled-out programs are folded at the bottom with the reason. Each program is a grant, a loan you repay or a tax credit, and the tool says which. Amounts and conditions change, so check them with the administrator before you commit.
 
 <GrantSelector lang="en" />
-
-## All programs
-
-Here are all the programs in the tool, with what they pay and what is left to check. Each name links to the page of the body that administers it.
-
-<GrantTable lang="en" />
 
 ## Order matters
 

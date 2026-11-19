@@ -452,7 +452,7 @@ export const programs: Program[] = [
       revenueMin: 1000001,
       revenueMax: 50000000,
       projects: ['export'],
-      sectors: { out: ['11', '21', '22', '23', '52', '53', '55', '56', '61', '62', '71', '72', '81', '91'], confirm: ['51', '44-45'] },
+      sectors: { out: ['11', '21', '22', '23', '52', '53', '55', '61', '62', '71', '72', '81', '91'], confirm: ['51', '56', '44-45'] },
       sectorNote: {
         fr: "Secteurs exclus du volet 2 : agriculture, foresterie et pêche, mines et pétrole, services publics, construction, radiodiffusion et télécommunications, finance et assurances, immobilier, gestion de sociétés, services administratifs, enseignement, santé, arts, hébergement et restauration, autres services, administrations publiques. Le commerce de détail est visé sous conditions.",
         en: 'Sectors excluded from stream 2: agriculture, forestry and fishing, mining and oil and gas, utilities, construction, broadcasting and telecommunications, finance and insurance, real estate, management of companies, administrative services, education, health, arts, accommodation and food, other services, public administration. Retail is covered under conditions.',

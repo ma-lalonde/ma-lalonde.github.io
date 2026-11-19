@@ -12,15 +12,9 @@ Plusieurs programmes peuvent payer une partie de votre projet, dont mes honorair
 
 ## Quels programmes pourraient viser votre projet?
 
-Répondez aux questions ci-dessous : l'outil écarte les programmes dont les critères de taille, de secteur, de territoire ou de type de projet ne correspondent pas à votre entreprise. Chaque programme est une subvention, un prêt à rembourser ou un crédit d'impôt, et l'outil le précise. Les montants et les conditions changent : vérifiez-les auprès de l'organisme avant de vous engager.
+Tous les programmes sont listés ci-dessous. Répondez aux questions pour écarter ceux dont les critères de taille, de secteur, de territoire ou de type de projet ne correspondent pas à votre entreprise; les programmes écartés sont regroupés en bas, avec la raison. Chaque programme est une subvention, un prêt à rembourser ou un crédit d'impôt, et l'outil le précise. Les montants et les conditions changent : vérifiez-les auprès de l'organisme avant de vous engager.
 
 <GrantSelector lang="fr" />
-
-## Tous les programmes
-
-Voici tous les programmes de l'outil, avec ce qu'ils paient et ce qu'il reste à vérifier. Chaque nom renvoie à la page de l'organisme qui l'administre.
-
-<GrantTable lang="fr" />
 
 ## L'ordre compte
 

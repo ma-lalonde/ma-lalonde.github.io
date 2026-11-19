@@ -21,7 +21,6 @@ const ui = {
     scian: 'Trouver votre code SCIAN',
     reset: 'Effacer',
     privacy: "Le calcul se fait dans votre navigateur : rien de ce que vous entrez n'est envoyé ni conservé.",
-    hint: 'Choisissez un type de projet pour voir les programmes qui pourraient le viser. Les autres champs affinent le résultat.',
     found: (n: number) => (n === 1 ? '1 programme pourrait viser votre projet' : `${n} programmes pourraient viser votre projet`),
     none: 'Aucun programme de la liste ne semble viser ce projet avec ces réponses.',
     guarantee: "Aucun n'est garanti : l'organisme décide. Les points à vérifier peuvent changer le résultat.",
@@ -47,7 +46,6 @@ const ui = {
     scian: 'Find your NAICS code',
     reset: 'Clear',
     privacy: 'The calculation runs in your browser: nothing you enter is sent or stored.',
-    hint: 'Choose a project type to see the programs that might cover it. The other fields refine the result.',
     found: (n: number) => (n === 1 ? '1 program might cover your project' : `${n} programs might cover your project`),
     none: 'No program in the list seems to cover this project with these answers.',
     guarantee: 'None is guaranteed: the administrator decides. The points to check can change the result.',
@@ -155,9 +153,7 @@ function reset() {
       </div>
     </form>
 
-    <p v-if="!project" class="gs-hint">{{ s.hint }}</p>
-
-    <div v-else class="gs-results" aria-live="polite">
+    <div class="gs-results" aria-live="polite">
       <h3 class="gs-count">{{ result.matches.length ? s.found(result.matches.length) : s.none }}</h3>
       <p v-if="result.matches.length" class="gs-guarantee">{{ s.guarantee }}</p>
 
@@ -267,14 +263,10 @@ function reset() {
 }
 .gs-privacy,
 .gs-guarantee,
-.gs-hint,
 .gs-meta {
   margin: 0;
   font-size: 14px;
   color: var(--vp-c-text-2);
-}
-.gs-hint {
-  margin-top: 16px;
 }
 .gs-count {
   margin: 24px 0 4px;
