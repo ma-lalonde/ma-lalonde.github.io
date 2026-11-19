@@ -28,9 +28,9 @@ Deux façons de procéder :
 ## Exemples d'automatisations réalisées {#exemples}
 
 - Entrée manuelle de données d'un document papier, d'un tableur ou d'un logiciel vers un autre logiciel
-- Instruments connectés et collection des données automatisée et rassemblées dans un tableau de bord intuitif
+- Instruments connectés et données collectées automatiquement et rassemblées dans un tableau de bord intuitif
 - Surveillance et contrôle automatique de climat ou d'une machine
-- Connexion de fichiers et de bases de données auparavant isolées en silo pour les rendre accessible et augmenter la vitesse, la justesse et l'efficacité de procédés
+- Connexion de fichiers et de bases de données auparavant isolées en silo pour les rendre accessibles et augmenter la vitesse, la justesse et l'efficacité de procédés
 - Sauvegardes, mises à jour et déploiements automatiques et sécuritaires
 - Anonymisation de données, séparation des étapes et gestion des accès pour améliorer l'efficacité grâce à l'IA sans risquer la perte ou le vol de données.
 
@@ -57,7 +57,7 @@ Je protège vos données contre la perte et contre les accès non autorisés, et
 
 Je ne reçois aucune commission des fournisseurs de logiciels.
 
-Je développe aussi la plateforme [Catena](https://catena.run), qui simplifie le déploiement et la maintenance d'applications auto-hébergés. L'auto-hébergement est cependant une option plus complexe que d'autres et n'est pas destinée à tous les types de clients.
+Je développe aussi la plateforme [Catena](https://catena.run), qui simplifie le déploiement et la maintenance d'applications auto-hébergées. L'auto-hébergement est cependant une option plus complexe que d'autres et n'est pas destinée à tous les types de clients.
 
 ### Travaillez-vous sur place ou à distance? {#faq-lieu}
 
