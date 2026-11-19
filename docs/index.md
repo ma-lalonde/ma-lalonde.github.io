@@ -1,19 +1,19 @@
 ---
 layout: home
-title: "Marc-Antoine Lalonde | Consultant en automatisation et intégration de systèmes"
+title: "Marc-Antoine Lalonde | Services numériques pour PME"
 titleTemplate: false
 
 hero:
   name: "Marc-Antoine Lalonde, B. Ing."
-  text: "Consultant en automatisation et intégration de systèmes"
+  text: "Services numériques pour PME"
   tagline: "Transformation numérique | Intégration de systèmes | Automatisation | Sécurité des données | Souveraineté numérique"
   actions:
     - theme: brand
       text: Parlez-moi de votre entreprise
       link: /contact
     - theme: alt
-      text: Voir les projets
-      link: /projets/
+      text: Voir les offres
+      link: /offres
 
 features:
   - title: "Automatisez"
@@ -24,14 +24,23 @@ features:
     details: "Protégez vos données et celles de vos clients avec des méthodes de sauvegarde éprouvées, des procédures de gestion d'accès centralisées et une application rigoureuse de la Loi 25 et de la LPRDE."
   - title: "Auto-hébergez vos données et applications"
     details: "Réduisez votre dépendance et vos coûts grâce à des logiciels libres ou personnalisés selon vos besoins, hébergés sur l'infrastructure de votre choix."
+  - title: "Déployez l'IA en sécurité"
+    details: "Utilisez l'IA sans perdre vos données, sans que des personnes non autorisées y accèdent et sans que celles de vos clients fuient."
 ---
 
-## Comment on travaille ensemble
+## Je vous accompagne à chacune des étapes
 
-1. **Découverte** - 30 minutes, gratuit. Vous me racontez une semaine normale et ce qui se refait à la main.
-2. **Rétroaction** - par écrit, gratuit. Ce qui vaut la peine d'être fait, ce que ça enlève comme travail et à peu près ce que ça demande.
-3. **Faisabilité, diagnostic et planification** - une spécification et un plan de test en langage clair, qui vous appartiennent.
-4. **Implantation** - par itérations, testé par moi et approuvé par vous, étape par étape.
-5. **Soutien** - mises à jour, sauvegardes, gestion des vulnérabilités, intégration/livraison continues.
+<div class="flow">
+  <div class="flow-step"><strong>Découverte et rétroaction écrite</strong><span>Gratuites. Vous me racontez une semaine normale, je vous réponds par écrit.</span></div>
+  <div class="flow-step"><strong>Faisabilité et diagnostic</strong><span>Ce qui vaut la peine d'être fait, et ce que ça demande.</span></div>
+  <div class="flow-step"><strong>Plan</strong><span>Une spécification et un plan de test en langage clair.</span></div>
+  <div class="flow-step"><strong>Implantation</strong><span>Étape par étape, testée par moi et approuvée par vous.</span></div>
+  <div class="flow-step"><strong>Suivi et support</strong><span>Mises à jour, sauvegardes et correctifs.</span></div>
+</div>
 
 Vos projets [pourraient être admissibles à certaines subventions](/subventions); on en discutera!
+
+<div class="center">
+  <VPButton tag="a" size="big" theme="brand" text="Parlez-moi de votre entreprise" href="/contact" />
+  <p>Réponse en 48 h ouvrables.</p>
+</div>

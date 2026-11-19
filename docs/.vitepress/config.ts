@@ -53,6 +53,7 @@ export default defineConfig({
         siteTitle: false,
         nav: [
           { text: 'Accueil', link: '/' },
+          { text: 'Offres', link: '/offres' },
           { text: 'Projets', link: '/projets/' },
           { text: 'Subventions', link: '/subventions' },
           { text: 'Contact', link: '/contact' }
@@ -65,12 +66,12 @@ export default defineConfig({
             {
               text: 'Projets',
               items: [
+                { text: 'Mandats clients', link: '/projets/mandats' },
                 { text: 'Catena (depuis 2026)', link: '/projets/catena' },
                 { text: 'Chocolat Infini (2024-2026)', link: '/projets/chocolate' },
                 { text: 'Connaxio (2021-2024)', link: '/projets/connaxio' },
                 { text: 'SBQuantum et QMSat (2018-2020)', link: '/projets/sbquantum-qmsat' },
-                { text: 'VAMUdeS (2016-2018)', link: '/projets/drones' },
-                { text: 'Autres mandats', link: '/projets/mandats' }
+                { text: 'VAMUdeS (2016-2018)', link: '/projets/drones' }
               ]
             }
           ]
@@ -98,6 +99,7 @@ export default defineConfig({
         siteTitle: false,
         nav: [
           { text: 'Home', link: '/en/' },
+          { text: 'Offers', link: '/en/offers' },
           { text: 'Projects', link: '/en/projects/' },
           { text: 'Grants', link: '/en/grants' },
           { text: 'Contact', link: '/en/contact' }
@@ -110,12 +112,12 @@ export default defineConfig({
             {
               text: 'Projects',
               items: [
+                { text: 'Client work', link: '/en/projects/work' },
                 { text: 'Catena (since 2026)', link: '/en/projects/catena' },
                 { text: 'Chocolat Infini (2024-2026)', link: '/en/projects/chocolate' },
                 { text: 'Connaxio (2021-2024)', link: '/en/projects/connaxio' },
                 { text: 'SBQuantum and QMSat (2018-2020)', link: '/en/projects/sbquantum-qmsat' },
-                { text: 'VAMUdeS (2016-2018)', link: '/en/projects/drones' },
-                { text: 'Other work', link: '/en/projects/work' }
+                { text: 'VAMUdeS (2016-2018)', link: '/en/projects/drones' }
               ]
             }
           ]

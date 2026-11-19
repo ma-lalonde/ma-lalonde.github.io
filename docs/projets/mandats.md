@@ -2,7 +2,7 @@
 description: "Mandats réalisés pour des clients : migration d'environ 30 000 membres vers Circle pour Human Garage, serre de champignons instrumentée, déploiement simplifié pour Revolutionnez.ca."
 ---
 
-# Autres mandats
+# Mandats clients
 
 Les mandats que j'ai réalisés pour des clients.
 

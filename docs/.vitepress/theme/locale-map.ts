@@ -1,5 +1,6 @@
 export const frToEn: Record<string, string> = {
   '/': '/en/',
+  '/offres': '/en/offers',
   '/contact': '/en/contact',
   '/confidentialite': '/en/privacy',
   '/subventions': '/en/grants',
