@@ -21,17 +21,15 @@ features:
   - title: "Optimisez"
     details: "Mesurez, instrumentez et ajustez vos procédés, du bureau à la ligne de production, pour éliminer les retards, améliorer les rendements et augmenter la qualité de vos services."
   - title: "Sécurisez vos données"
-    details: "Protégez vos données et celles de vos clients avec des méthodes de sauvegarde éprouvées, des procédures de gestion d'accès centralisées et une application rigoureuse de la Loi 25 et de la LPRDE."
+    details: "Protégez vos données et celles de vos clients, y compris quand vous utilisez l'IA, avec des méthodes de sauvegarde éprouvées, des procédures de gestion d'accès centralisées et une application rigoureuse de la Loi 25 et de la LPRDE."
   - title: "Auto-hébergez vos données et applications"
     details: "Réduisez votre dépendance et vos coûts grâce à des logiciels libres ou personnalisés selon vos besoins, hébergés sur l'infrastructure de votre choix."
-  - title: "Déployez l'IA en sécurité"
-    details: "Utilisez l'IA sans perdre vos données, sans que des personnes non autorisées y accèdent et sans que celles de vos clients fuient."
 ---
 
 ## Je vous accompagne à chacune des étapes
 
 <div class="flow">
-  <div class="flow-step"><strong>Découverte et rétroaction écrite</strong><span>Gratuites. Vous me racontez une semaine normale, je vous réponds par écrit.</span></div>
+  <div class="flow-step"><strong>Découverte et rétroaction écrite</strong><span>Gratuites. Parlez-moi de vos activités et de votre quotidien, et je vous indique avec quoi je peux vous aider.</span></div>
   <div class="flow-step"><strong>Faisabilité et diagnostic</strong><span>Ce qui vaut la peine d'être fait, et ce que ça demande.</span></div>
   <div class="flow-step"><strong>Plan</strong><span>Une spécification et un plan de test en langage clair.</span></div>
   <div class="flow-step"><strong>Implantation</strong><span>Étape par étape, testée par moi et approuvée par vous.</span></div>

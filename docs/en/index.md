@@ -21,17 +21,15 @@ features:
   - title: "Optimize"
     details: "Measure, instrument and tune your processes, from the office to the production line, to eliminate delays, improve yields and raise the quality of your services."
   - title: "Secure your data"
-    details: "Protect your data and your customers' data with proven backup methods, centralized access management procedures and rigorous compliance with Quebec's Law 25 and PIPEDA."
+    details: "Protect your data and your customers' data, including when you use AI, with proven backup methods, centralized access management procedures and rigorous compliance with Quebec's Law 25 and PIPEDA."
   - title: "Self-host your data and applications"
     details: "Reduce your dependence and your costs with open-source or custom software tailored to your needs, hosted on the infrastructure of your choice."
-  - title: "Deploy AI safely"
-    details: "Use AI without losing your data, without unauthorized people reaching it and without your customers' data leaking."
 ---
 
 ## I support you at every step
 
 <div class="flow">
-  <div class="flow-step"><strong>Discovery and written feedback</strong><span>Free. You walk me through a normal week, I answer in writing.</span></div>
+  <div class="flow-step"><strong>Discovery and written feedback</strong><span>Free. Tell me about your business and your day-to-day, and I will tell you what I can help with.</span></div>
   <div class="flow-step"><strong>Feasibility and diagnostic</strong><span>What is worth doing, and what it takes.</span></div>
   <div class="flow-step"><strong>Plan</strong><span>A specification and a test plan in plain language.</span></div>
   <div class="flow-step"><strong>Implementation</strong><span>Step by step, tested by me and approved by you.</span></div>
