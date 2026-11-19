@@ -1,19 +1,19 @@
 ---
 layout: home
-title: "Marc-Antoine Lalonde | Automation and systems integration consultant"
+title: "Marc-Antoine Lalonde | Digital services for small businesses"
 titleTemplate: false
 
 hero:
   name: "Marc-Antoine Lalonde, B. Eng."
-  text: "Automation and systems integration consultant"
+  text: "Digital services for small businesses"
   tagline: "Digital transformation | Systems integration | Automation | Data security | Digital sovereignty"
   actions:
     - theme: brand
       text: Tell me about your business
       link: /en/contact
     - theme: alt
-      text: See the projects
-      link: /en/projects/
+      text: See the offers
+      link: /en/offers
 
 features:
   - title: "Automate"
@@ -21,17 +21,24 @@ features:
   - title: "Optimize"
     details: "Measure, instrument and tune your processes, from the office to the production line, to eliminate delays, improve yields and raise the quality of your services."
   - title: "Secure your data"
-    details: "Protect your data and your customers' data with proven backup methods, centralized access management procedures and rigorous compliance with Quebec's Law 25 and PIPEDA."
+    details: "Protect your data and your customers' data, including when you use AI, with proven backup methods, centralized access management procedures and rigorous compliance with Quebec's Law 25 and PIPEDA."
   - title: "Self-host your data and applications"
     details: "Reduce your dependence and your costs with open-source or custom software tailored to your needs, hosted on the infrastructure of your choice."
 ---
 
-## How we work together
+## I support you at every step
 
-1. **Discovery** - 30 minutes, free. You walk me through a normal week and what gets redone by hand.
-2. **Feedback** - written, free. What is worth doing, the work it removes, and roughly what it takes.
-3. **Feasibility, diagnostic and planning** - a specification and a test plan in plain language, and they are yours.
-4. **Implementation** - in iterations, tested by me and approved by you, step by step.
-5. **Support** - updates, backups, vulnerability management, continuous integration and delivery.
+<div class="flow">
+  <div class="flow-step"><strong>Discovery and written feedback</strong><span>Free. Tell me about your business and your day-to-day, and I will tell you what I can help with.</span></div>
+  <div class="flow-step"><strong>Feasibility and diagnostic</strong><span>What is worth doing, and what it takes.</span></div>
+  <div class="flow-step"><strong>Plan</strong><span>A specification and a test plan in plain language.</span></div>
+  <div class="flow-step"><strong>Implementation</strong><span>Step by step, tested by me and approved by you.</span></div>
+  <div class="flow-step"><strong>Follow-up and support</strong><span>Updates, backups and fixes.</span></div>
+</div>
 
 Your projects [may qualify for some grants](/en/grants); let's talk about it!
+
+<div class="center">
+  <VPButton tag="a" size="big" theme="brand" text="Tell me about your business" href="/en/contact" />
+  <p>Reply within 2 business days.</p>
+</div>
