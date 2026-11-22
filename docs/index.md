@@ -5,8 +5,8 @@ titleTemplate: false
 
 hero:
   name: "Marc-Antoine Lalonde, B. Ing."
-  text: "Services numériques pour PME"
-  tagline: "Transformation numérique | Intégration de systèmes | Automatisation | Sécurité des données | Souveraineté numérique"
+  text: "Intégrateur de systèmes"
+  tagline: "Transformation numérique  | Automatisation | Instrumentation | Sécurité des données | Souveraineté numérique"
   actions:
     - theme: brand
       text: Parlez-moi de votre entreprise
