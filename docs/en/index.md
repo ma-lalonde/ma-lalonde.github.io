@@ -5,8 +5,8 @@ titleTemplate: false
 
 hero:
   name: "Marc-Antoine Lalonde, B. Eng."
-  text: "Digital services for small businesses"
-  tagline: "Digital transformation | Systems integration | Automation | Data security | Digital sovereignty"
+  text: "Systems Integrator"
+  tagline: "Digital transformation | Automation | Instrumentation | Data security | Digital sovereignty"
   actions:
     - theme: brand
       text: Tell me about your business
